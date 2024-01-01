@@ -200,7 +200,7 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
 
 local Tab = Window:MakeTab({
 	Name = "MM2 TP",
-	Icon = "rbxassetid://15475079065",
+	Icon = "rbxassetid://15474795932",
 	PremiumOnly = false
 })
 
