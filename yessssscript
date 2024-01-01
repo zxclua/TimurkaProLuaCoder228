@@ -20,3 +20,20 @@ Tab:AddButton({
       		game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zombie")
   	end    
 })
+
+Tab:AddButton({
+	Name = "Reset all",
+	Callback = function()
+      		z = game.Players.LocalPlayer
+f = z.Character.SprayPaint
+for _, v in game.Players:GetChildren() do
+if v ~= z then
+if v.Character then
+if v.Character:FindFirstChild("HumanoidRootPart") then
+f.Remote:FireServer(0, Enum.NormalId.Front, 2048, v.Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, -1000, 0)) 
+end
+end
+end
+end
+  	end    
+})
