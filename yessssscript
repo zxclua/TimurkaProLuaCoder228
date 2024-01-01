@@ -62,6 +62,8 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gamep
 Tab:AddButton({
 	Name = "Drop FakeGun",
 	Callback = function()
+local TypeText = ""
+
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 
 TypeText = TypeText:sub(1, -2)
