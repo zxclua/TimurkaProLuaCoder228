@@ -40,13 +40,6 @@ game.Players.LocalPlayer.Character.Humanoid.Sit = true
   	end    
 })
 
-Tab:AddButton({
-	Name = "Sit",
-	Callback = function()
-game.Players.LocalPlayer.Character.Humanoid.Sit = true
-  	end    
-})
-
 Tab:AddToggle({
 	Name = "Infinite Ghost",
 	Default = false,
