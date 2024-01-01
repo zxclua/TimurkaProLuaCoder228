@@ -297,3 +297,71 @@ Tab:AddButton({
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("headless")
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "MM2 Spray",
+	Icon = "rbxassetid://14925193583",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddButton({
+	Name = "Reset all",
+	Callback = function()
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+z = game.Players.LocalPlayer
+f = z.Character.SprayPaint
+for _, v in game.Players:GetChildren() do
+if v ~= z then
+if v.Character then
+if v.Character:FindFirstChild("HumanoidRootPart") then
+f.Remote:FireServer(0, Enum.NormalId.Front, 2048, v.Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, -1000, 0)) 
+end
+end
+end
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Speed glitch all",
+	Callback = function()
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+local args = {
+    [1] = 14882467507,
+    [2] = Enum.NormalId.Top,
+    [3] = 5,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(30,150,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+
+
+  	end    
+})
