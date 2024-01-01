@@ -58,3 +58,13 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gameplay"):WaitForChild("Stealth"):FireServer(unpack(args))
 	end    
 })
+
+Tab:AddButton({
+	Name = "Drop FakeGun",
+	Callback = function()
+game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
+
+TypeText = TypeText:sub(1, -2)
+        
+  	end    
+})
