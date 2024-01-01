@@ -1212,8 +1212,8 @@ end
 
 local args = {
     [1] = 14897300231,
-    [2] = Enum.NormalId.Right,
-    [3] = 5,
+    [2] = Enum.NormalId.Front,
+    [3] = 2,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,0,0)
 }
