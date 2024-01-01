@@ -351,6 +351,8 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
     end
 end
+for _, v in pairs(game.Players:GetPlayers()) do
+
 local args = {
     [1] = 14882467507,
     [2] = Enum.NormalId.Top,
