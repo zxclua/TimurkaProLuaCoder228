@@ -238,3 +238,62 @@ end
 end
   	end    
 })
+
+local Tab = Window:MakeTab({
+	Name = "MM2 Emotes",
+	Icon = "rbxassetid://14925193583",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("sit")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("ninja")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("dab")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zen")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("floss")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zombie")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("headless")
+  	end    
+})
