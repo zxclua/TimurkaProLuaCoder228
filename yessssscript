@@ -452,7 +452,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Reset all",
+	Name = "Dick all",
 	Callback = function()
 local args = {
     [1] = "SprayPaint"
