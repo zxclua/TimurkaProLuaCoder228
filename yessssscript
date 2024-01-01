@@ -15,8 +15,8 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Emote",
 	Callback = function()
-      		print("button pressed")
+      		game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("Zombie")
   	end    
 })
