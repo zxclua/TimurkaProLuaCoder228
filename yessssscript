@@ -24,7 +24,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Reset all",
 	Callback = function()
-      		z = game.Players.LocalPlayer
+z = game.Players.LocalPlayer
 f = z.Character.SprayPaint
 for _, v in game.Players:GetChildren() do
 if v ~= z then
