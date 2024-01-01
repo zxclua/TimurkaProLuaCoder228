@@ -11,29 +11,50 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "Section"
+	Name = "mm2"
 })
 
 Tab:AddButton({
-	Name = "Emote",
+	Name = "Test emote",
 	Callback = function()
-      		game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zombie")
+a = Instance.new("Animation") 
+a.AnimationId = "rbxassetid://14438671649"
+b = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+b:Play()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Reset all",
+	Name = "Stop emote",
 	Callback = function()
-z = game.Players.LocalPlayer
-f = z.Character.SprayPaint
-for _, v in game.Players:GetChildren() do
-if v ~= z then
-if v.Character then
-if v.Character:FindFirstChild("HumanoidRootPart") then
-f.Remote:FireServer(0, Enum.NormalId.Front, 2048, v.Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, -1000, 0)) 
-end
-end
-end
+for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+v:Stop() 
 end
   	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sit",
+	Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.Sit = true
+  	end    
+})
+
+Tab:AddToggle({
+	Name = "Infinite Ghost",
+	Default = false,
+	Callback = function(Value)
+local args = {
+    [1] = Value
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gameplay"):WaitForChild("Stealth"):FireServer(unpack(args))
+	end    
 })
