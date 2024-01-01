@@ -257,42 +257,42 @@ game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("sit")
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Ninja",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("ninja")
   	end    
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Dab",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("dab")
   	end    
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Zen",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zen")
   	end    
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Floss",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("floss")
   	end    
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Zombie",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("zombie")
   	end    
 })
 
 Tab:AddButton({
-	Name = "Sit",
+	Name = "Headless",
 	Callback = function()
 game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("headless")
   	end    
