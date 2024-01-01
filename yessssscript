@@ -11,7 +11,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-	Name = "mm2"
+	Name = "credits: supergovnuk"
 })
 
 Tab:AddButton({
@@ -169,5 +169,72 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("TrapSystem"):WaitForChild("PlaceTrap"):InvokeServer(unpack(args))
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Fake Inventory",
+	Callback = function()
+local WeaponOwnRange = {
+min=1,
+max=5
+}
+ 
+local DataBase, PlayerData = getrenv()._G.Database, getrenv()._G.PlayerData
+ 
+local newOwned = {}
+ 
+for i,v in next, DataBase.Item do
+newOwned[i] = math.random(WeaponOwnRange.min, WeaponOwnRange.max) -- newOwned[Weapon]: ItemCount
+end
+ 
+local PlayerWeapons = PlayerData.Weapons
+ 
+game:GetService("RunService"):BindToRenderStep("InventoryUpdate", 0, function()
+PlayerWeapons.Owned = newOwned
+end)
+ 
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MM2 TP",
+	Icon = "rbxassetid://15475079065",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddButton({
+	Name = "Lobby TP",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.060272, 136.674957, 10.2191353, -1, 4.28097486e-08, -3.51574272e-06, 4.28095532e-08, 1, 5.58183721e-08, 3.51574272e-06, 5.58182194e-08, -1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder TP",
+	Callback = function()
+for _, v in pairs(game.Players:GetPlayers()) do
+if v.Character ~= nil and v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+murder = v.Name
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
+end
+end
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Sheriff TP",
+	Callback = function()
+for _,v in pairs(game.Players:GetPlayers()) do
+if v.Character ~= nil and v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
+end
+end
   	end    
 })
