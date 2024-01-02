@@ -1829,3 +1829,10 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 
 end
 })
+
+OrionLib:MakeNotification({
+	Name = "Future",
+	Content = "Future hub loaded!",
+	Image = "rbxassetid://8709610734",
+	Time = 5
+})
