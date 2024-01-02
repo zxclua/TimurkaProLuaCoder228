@@ -398,7 +398,7 @@ local args = {
     [2] = Enum.NormalId.Right,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
-    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-2.5,2.5)
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,5)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
