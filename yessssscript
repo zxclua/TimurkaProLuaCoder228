@@ -2019,10 +2019,10 @@ OrionLib:MakeNotification({
 
 ------------------------important varibles------------------------------------------------------------
 
-rbxname = "MastersMZ"
+rbxname = "x1e2p"
 local prefix = ":"
-local LPlayer = game.Players.MastersMZ -- your name on my name (maxbrh1)
-messageLL = "maxbr1 on top" 
+local LPlayer = game.Players.x1e2p -- your name on my name (maxbrh1)
+messageLL = "Тимурка хороший" 
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
 resettime = 5.4 --how long it will take to teleport alts back to cordinates noclip command
