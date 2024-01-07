@@ -2033,16 +2033,15 @@ resettime = 5.4 --how long it will take to teleport alts back to cordinates nocl
 --sit sits alts
 --unsit unsits alts
 --rs resets alts
---fling excutes fling scripts on alts remeber to use account for lag
 --leave makes alts leave 
 --float floats alts
 --unfloat unfloats alts
---say makes alts say message
---tweengoto makes alt tween to player
---noclip phase trugh walls
---unclip no noclip
---roast roast people with custum text 
---love Love and compliments
+--rsm
+--rss
+--ma
+--tg
+--dk
+--spg
 
 ---------------grapics commands-------------------------------------------------------------------------
 
