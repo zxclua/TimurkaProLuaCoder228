@@ -2270,6 +2270,15 @@ end
 end
     end
 
+if cmd == "tg" then
+local args = {
+    [1] = "aadadadad",
+    [2] = "normalchat"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    end
+
 
 
 -----------------------------grapics scripts-----------------------------------------------------------------------------------
