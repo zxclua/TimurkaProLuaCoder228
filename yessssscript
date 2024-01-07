@@ -378,7 +378,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "aaa",
+	Name = "kletka",
 	Callback = function()
 local args = {
     [1] = "SprayPaint"
