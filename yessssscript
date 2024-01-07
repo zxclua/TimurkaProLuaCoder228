@@ -2079,14 +2079,7 @@ local pos = p1.CFrame
 p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
 	end
 
-		if cmd == "msg" then
-		    local args = {
-			[1] = "Тимурка хороший"
-			[2] = "ALL"
-		}
-
-		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-	end
+		
 		if cmd == "sit" then
 		    game.Players.LocalPlayer.Character.Humanoid.Sit = true
     end
