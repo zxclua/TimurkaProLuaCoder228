@@ -2186,22 +2186,20 @@ game.Players.LocalPlayer.Character.Head.Anchored = false
             game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result1,"All")
     end
 
-if cmd == "rm" then
-           for _, v in pairs(game.Players:GetPlayers()) do
-if v.Character ~= nil and v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
-murder = v.Name
+if cmd == "spg" then
+for _, v in pairs(game.Players:GetPlayers()) do
 
 local args = {
-    [1] = 14889784744,
+    [1] = 14882467507,
     [2] = Enum.NormalId.Top,
     [3] = 5,
     [4] = v.Character.HumanoidRootPart,
-    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(62374656246562345634563456364572347562364765245,-333337233456345634563456345646572634562345333333333333,-7246236475234523452765)
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(30,150,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
-end
+
 end
     end
 
