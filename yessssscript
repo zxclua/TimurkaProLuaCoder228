@@ -2019,10 +2019,10 @@ OrionLib:MakeNotification({
 
 ------------------------important varibles------------------------------------------------------------
 
-rbxname = "x1e2p"
-local prefix = "!"
-local LPlayer = game.Players.LocalPlayer -- your name on my name (maxbrh1)
-messageLL = "www . weexploit . net " 
+rbxname = "MastersMZ"
+local prefix = ":"
+local LPlayer = game.Players.MastersMZ -- your name on my name (maxbrh1)
+messageLL = "maxbr1 on top" 
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
 resettime = 5.4 --how long it will take to teleport alts back to cordinates noclip command
@@ -2043,7 +2043,7 @@ resettime = 5.4 --how long it will take to teleport alts back to cordinates nocl
 --unclip no noclip
 --roast roast people with custum text 
 --love Love and compliments
---infy infiniteyield
+
 ---------------grapics commands-------------------------------------------------------------------------
 
 --gr1 reduces grapics on alts more cpu power and gpu
@@ -2087,14 +2087,6 @@ p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
 
 		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 	end
-	if cmd == "infy" then
-		   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end
-	   	if cmd == "fly" then
-		   loadstring(game:HttpGet('https://raw.githubusercontent.com/xCatScript/Fly-sCRIPT/main/fly.txt'))()
-		   end
-	   
-	   
 		if cmd == "sit" then
 		    game.Players.LocalPlayer.Character.Humanoid.Sit = true
     end
@@ -2177,9 +2169,21 @@ game.Players.LocalPlayer.Character.Head.Anchored = false
             game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result,"All")
     end
         if cmd == "love" then
-            local love = {"You just light up the room."          
- }
-            game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(love)
+            local love = {"You just light up the room.",
+            "You are more fun than anyone or anything I know, including bubble wrap.",
+            "Your inside is even more beautiful than your outside.",
+            "You inspire me.",
+            "You are the reason I am smiling today.",
+            "I bet you make small animals happy.",
+            "Colors seem brighter when you're around.",
+            "Your eyes are breathtaking.",
+            "On a scale from 1 to 10, you're an 11.",
+            "You are an incredible human.",
+            "Thank you for being you.",
+            }
+
+            local Result1 = love[math.random(1, #love)]
+            game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result1,"All")
     end
 
 
@@ -2371,9 +2375,3 @@ if render1 == true then
     end
 
 -------------------------------------------------------------------------------------------------------------------------------------
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "Weexploit's Alt Control Script";
-	Text = "Loaded";
-	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-Duration = 16;
