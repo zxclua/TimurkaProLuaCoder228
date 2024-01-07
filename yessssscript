@@ -2234,7 +2234,7 @@ end
 end
     end
 
-if cmd == "rsm" then
+if cmd == "rss" then
 local args = {
     [1] = "SprayPaint"
 }
