@@ -2272,7 +2272,7 @@ end
 
 if cmd == "tg" then
 local args = {
-    [1] = "aadadadad",
+    [1] = "Тимурка хороший",
     [2] = "normalchat"
 }
 
