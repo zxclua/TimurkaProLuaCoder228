@@ -2021,7 +2021,7 @@ OrionLib:MakeNotification({
 
 rbxname = "x1e2p"
 local prefix = "!"
-local LPlayer = game.Players.x1e2p -- your name on my name (maxbrh1)
+local LPlayer = game.Players.LocalPlayer -- your name on my name (maxbrh1)
 messageLL = "www . weexploit . net " 
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
@@ -2177,21 +2177,9 @@ game.Players.LocalPlayer.Character.Head.Anchored = false
             game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result,"All")
     end
         if cmd == "love" then
-            local love = {"You just light up the room.",
-            "You are more fun than anyone or anything I know, including bubble wrap.",
-            "Your inside is even more beautiful than your outside.",
-            "You inspire me.",
-            "You are the reason I am smiling today.",
-            "I bet you make small animals happy.",
-            "Colors seem brighter when you're around.",
-            "Your eyes are breathtaking.",
-            "On a scale from 1 to 10, you're an 11.",
-            "You are an incredible human.",
-            "Thank you for being you.",
-            }
-
-            local Result1 = love[math.random(1, #love)]
-            game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result1,"All")
+            local love = {"You just light up the room."          
+ }
+            game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(love)
     end
 
 
