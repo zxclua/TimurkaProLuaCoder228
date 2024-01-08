@@ -2319,15 +2319,20 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
+        if v.name == "SprayPaint" then
             v.Parent = game.Players.LocalPlayer.Character
     end
 end
 
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "SprayPaint" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
+local args = {
+    [1] = 14882467507,
+    [2] = Enum.NormalId.Top,
+    [3] = 10000,
+    [4] = game.Players.x1e2p.Character.HumanoidRootPart,
+    [5] = game.Players.x1e2p.Character.HumanoidRootPart.CFrame * CFrame.new(0,4563457,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 end
 
 if cmd == "waterb" then
