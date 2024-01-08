@@ -2042,6 +2042,7 @@ resettime = 5.4 --how long it will take to teleport alts back to cordinates nocl
 --tg
 --dk
 --spg
+--love
 
 ---------------grapics commands-------------------------------------------------------------------------
 
@@ -2161,21 +2162,12 @@ game.Players.LocalPlayer.Character.Head.Anchored = false
             game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result,"All")
     end
         if cmd == "love" then
-            local love = {"You just light up the room.",
-            "You are more fun than anyone or anything I know, including bubble wrap.",
-            "Your inside is even more beautiful than your outside.",
-            "You inspire me.",
-            "You are the reason I am smiling today.",
-            "I bet you make small animals happy.",
-            "Colors seem brighter when you're around.",
-            "Your eyes are breathtaking.",
-            "On a scale from 1 to 10, you're an 11.",
-            "You are an incredible human.",
-            "Thank you for being you.",
-            }
+local args = {
+    [1] = "Я люблю Тимурку",
+    [2] = "normalchat"
+}
 
-            local Result1 = love[math.random(1, #love)]
-            game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result1,"All")
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     end
 
 if cmd == "spg" then
