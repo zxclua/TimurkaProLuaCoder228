@@ -9,22 +9,22 @@ render1 = false --if alts auto unrender when excuted
 resettime = 5.4 --how long it will take to teleport alts back to cordinates noclip command
 
 ---------------------commands--------------------------------------------------------------------------
---tp teleports alts to you
---msg says message
---sit sits alts
---unsit unsits alts
---rs resets alts
---leave makes alts leave 
---float floats alts
---unfloat unfloats alts
---rsm
---rss
---ma
---tg
---dk
---spg
---love
---kb
+--tp2 teleports alts to you
+--msg2 says message
+--sit2 sits alts
+--unsit2 unsits alts
+--rs2 resets alts
+--leave2 makes alts leave 
+--float2 floats alts
+--unfloat2 unfloats alts
+--rsm2
+--rss2
+--ma2
+--tg2
+--dk2
+--spg2
+--love2
+--kb2
 
 ---------------grapics commands-------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ LPlayer.Chatted:Connect(function(msg)
 		
 --------------------------------commands scripts----------------------------------------------------------
 		
-		if cmd == "tp" then
+		if cmd == "tp2" then
 		    local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
 local p2 = rbxname
 local pos = p1.CFrame
