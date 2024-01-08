@@ -62,29 +62,29 @@ p1.CFrame = game.Players[p2].Character.HumanoidRootPart.CFrame
 	end
 
 		
-		if cmd == "sit" then
+		if cmd == "sit2" then
 		    game.Players.LocalPlayer.Character.Humanoid.Sit = true
     end
-		if cmd =="unsit" then
+		if cmd =="unsit2" then
 		    game.Players.LocalPlayer.Character.Humanoid.Sit = false
     end 
-		if cmd == "rs" then
+		if cmd == "rs2" then
 		    game.Players.LocalPlayer.Character.Humanoid.Health = 0
     end
-		if cmd == "fling" then
+		if cmd == "fling2" then
 		    loadstring(game:HttpGet('https://files.shade4real.net/flinger.txt'))()
     end
-		if cmd == "leave" then
+		if cmd == "leave2" then
 		    game:Shutdown()
     end
-        if cmd == "float" then
+        if cmd == "float2" then
             for i, player in ipairs(game.Players:GetPlayers()) do -- use GetPlayers()
         player.Character.HumanoidRootPart.CFrame = CFrame.new(player.Character.HumanoidRootPart.Position + Vector3.new(0, 10, 0))
     end
 wait(0.2)
 game.Players.LocalPlayer.Character.Head.Anchored = true
     end
-        if cmd == "unfloat" then
+        if cmd == "unfloat2" then
             	    for i, player in ipairs(game.Players:GetPlayers()) do -- use GetPlayers()
         player.Character.HumanoidRootPart.CFrame = CFrame.new(player.Character.HumanoidRootPart.Position + Vector3.new(0, 10, 0))
     end
@@ -143,7 +143,7 @@ game.Players.LocalPlayer.Character.Head.Anchored = false
             local Result = Roast[math.random(1, #Roast)]
             game:service('ReplicatedStorage').DefaultChatSystemChatEvents.SayMessageRequest:FireServer(Result,"All")
     end
-        if cmd == "love" then
+        if cmd == "love2" then
 local args = {
     [1] = "Я люблю Кизила",
     [2] = "normalchat"
@@ -152,7 +152,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     end
 
-if cmd == "spg" then
+if cmd == "spg2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -176,7 +176,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
     end
 
-if cmd == "rsm" then
+if cmd == "rsm2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -207,7 +207,7 @@ end
 end
     end
 
-if cmd == "rss" then
+if cmd == "rss2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -243,7 +243,7 @@ end
 end
     end
 
-if cmd == "tg" then
+if cmd == "tg2" then
 local args = {
     [1] = "Кизил хороший",
     [2] = "normalchat"
@@ -252,7 +252,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     end
 
-if cmd == "ma" then
+if cmd == "ma2" then
 local args = {
     [1] = "у меня мама спидохзноая",
     [2] = "normalchat"
@@ -261,7 +261,7 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     end
 
-if cmd == "dk" then
+if cmd == "dk2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -285,7 +285,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
     end
 
-if cmd == "god" then
+if cmd == "god2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -309,7 +309,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 end
 
-if cmd == "waterb" then
+if cmd == "waterb2" then
 local args = {
     [1] = "SprayPaint"
 }
@@ -384,7 +384,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
     end
 
-if cmd == "kb" then
+if cmd == "kb2" then
 local args = {
     [1] = "SprayPaint"
 }
