@@ -2751,7 +2751,7 @@ if render1 == true then
 
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol", true))()
 
 
 
