@@ -5,6 +5,7 @@ userids = {
 [5419046195] = true, -- alt acc2
 [1447500300] = true, -- kizil
 [992346359] = true, -- romakaz
+[1935088066] = true, -- makson
 [3074123365] = true -- mef
 }
 return userids
