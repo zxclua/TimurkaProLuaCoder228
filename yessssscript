@@ -15,6 +15,15 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Force Trade(cant be off)",
+	Callback = function()
+while wait() do
+game:GetService("ReplicatedStorage"):WaitForChild("Trade"):WaitForChild("AcceptRequest"):FireServer()
+end
+  	end    
+})
+
+Tab:AddButton({
 	Name = "GunTP",
 	Callback = function()
 local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
