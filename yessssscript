@@ -15,6 +15,20 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "GunTP",
+	Callback = function()
+local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+local pos = p1.CFrame
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").GunDrop.CFrame
+
+wait(0.6)
+
+p1.CFrame = pos
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Animation speed",
 	Callback = function()
 for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
