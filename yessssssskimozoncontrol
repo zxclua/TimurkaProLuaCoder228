@@ -3,7 +3,7 @@ local args = {
     [2] = Enum.NormalId.Left,
     [3] = 250,
     [4] = workspace:WaitForChild("Lobby"):WaitForChild("Lobby"):WaitForChild("FrontWall"):WaitForChild("Wall"):WaitForChild("Part"),
-    [5] = CFrame.new(-118.8722152709961, 131.192138671875, -130.54847717285156, 0.9999556541442871, 0.0008703116909600794, -0.009384164586663246, -5.820766785236131e-11, 0.995727002620697, 0.09234628081321716, 0.009424435906112194, -0.09234218299388885, 0.9956827163696289)
+    [5] = game.Players.LocalPlayer.HumanoidRootPart.CFrame
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
