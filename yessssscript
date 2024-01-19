@@ -875,7 +875,7 @@ murder = v.Name
 local args = {
     [1] = 14889784744,
     [2] = Enum.NormalId.Top,
-    [3] = 5,
+    [3] = 2048,
     [4] = v.Character.HumanoidRootPart,
     [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1000,0)
 }
@@ -914,7 +914,7 @@ if v.Character ~= nil and v.Backpack:FindFirstChild("Gun") or v.Character:FindFi
 local args = {
     [1] = 14889784744,
     [2] = Enum.NormalId.Top,
-    [3] = 5,
+    [3] = 2048,
     [4] = v.Character.HumanoidRootPart,
     [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1000,0)
 }
