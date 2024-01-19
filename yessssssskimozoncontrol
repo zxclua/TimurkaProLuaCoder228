@@ -3,7 +3,7 @@ local args = {
     [2] = Enum.NormalId.Left,
     [3] = 250,
     [4] = workspace:WaitForChild("Lobby"):WaitForChild("Lobby"):WaitForChild("FrontWall"):WaitForChild("Wall"):WaitForChild("Part"),
-    [5] = game.Players.LocalPlayer.HumanoidRootPart.CFrame
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
