@@ -1563,9 +1563,9 @@ wait(1)
 local args = {
     [1] = 14882467507,
     [2] = Enum.NormalId.Top,
-    [3] = 10000,
-    [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
-    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,4563457,0)
+    [3] = 99999999,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,94894,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
