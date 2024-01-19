@@ -405,8 +405,8 @@ end
 
 local args = {
     [1] = 14879469700,
-    [2] = Enum.NormalId.Top,
-    [3] = 2,
+    [2] = Enum.NormalId.Left,
+    [3] = 3,
     [4] = workspace:WaitForChild("Lobby"):WaitForChild("Spawns"):WaitForChild("SpawnLocation"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,0)
 }
@@ -415,8 +415,8 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 
 local args = {
     [1] = 14879469700,
-    [2] = Enum.NormalId.Top,
-    [3] = 2,
+    [2] = Enum.NormalId.Right,
+    [3] = 3,
     [4] = workspace:WaitForChild("Lobby"):WaitForChild("Spawns"):WaitForChild("SpawnLocation"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-2,0)
 }
