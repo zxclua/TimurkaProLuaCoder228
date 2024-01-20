@@ -92,6 +92,13 @@ game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 })
 
 Tab:AddButton({
+	Name = "Drop fake gun",
+	Callback = function()
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
+  	end    
+})
+
+Tab:AddButton({
 	Name = "FakeKnife(GG sign need)",
 	Callback = function()
 local lp = game.Players.LocalPlayer
