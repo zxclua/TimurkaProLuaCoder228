@@ -379,12 +379,39 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "Emotes" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
             v.Parent = game.Players.LocalPlayer.Character
     end
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssskimozoncontrol", true))()
+for _, v in pairs(game.Players:GetPlayers()) do
+
+local args = {
+    [1] = 16047602715,
+    [2] = Enum.NormalId.Front,
+    [3] = 6,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,5,1)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16047602715,
+    [2] = Enum.NormalId.Back,
+    [3] = 6,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,5,1)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+end
   	end    
 })
 
