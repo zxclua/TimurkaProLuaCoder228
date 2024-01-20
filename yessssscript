@@ -391,6 +391,8 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
 end
 
 for _, v in pairs(game.Players:GetPlayers()) do
+if v.Character ~= nil and v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+murder = v.Name
 
 local args = {
     [1] = 16047602715,
