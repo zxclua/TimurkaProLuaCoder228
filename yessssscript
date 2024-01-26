@@ -35,7 +35,6 @@ game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 
 pl = game.Players.LocalPlayer
 s = pl.Backpack:GetChildren()
