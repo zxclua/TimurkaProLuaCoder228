@@ -2531,6 +2531,17 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     end
 
+        if cmd == "cmds" then
+local args = {
+    [1] = "these commands were created specifically for x1e2p!
+prefix: !
+commands:tp, rs , sit, unsit, float, unfloat, leave, spg, love, tg, ma, rsm, dk, rss, kb, Waterb",
+    [2] = "normalchat"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    end
+
 if cmd == "spg" then
 local args = {
     [1] = "SprayPaint"
