@@ -6,7 +6,10 @@ userids = {
 [1447500300] = true, -- kizil
 [992346359] = true, -- romakaz
 [1935088066] = true, -- makson
-[1990779933] = true, -- ikonka
-[3074123365] = true -- mef
+[1990779933] = true -- ikonka
 }
 return userids
+
+
+
+--[3074123365] = true -- mef
