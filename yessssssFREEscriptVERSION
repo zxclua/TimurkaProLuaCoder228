@@ -10,3 +10,17 @@ $$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |
 \__|      \__|       \______/ \_______/    \____/  \______/ \__|  \__| \______/ \_______/       \__|   \__|       \_______| \_______|
 
 ]]--
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Prosto Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PH", IntroText = "Best of the best"})
+
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://15475079065",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
