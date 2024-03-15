@@ -18,7 +18,7 @@ $$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Prosto Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "PH", IntroText = "лучший из лучших"})
+local Window = OrionLib:MakeWindow({Name = "Prosto Hub Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "PH", IntroText = "лучший из лучших"})
 
 local Tab = Window:MakeTab({
 	Name = "MM2",
@@ -2409,9 +2409,6 @@ OrionLib:MakeNotification({
 
 
 ------------------------important varibles------------------------------------------------------------
-
-while wait() do
-
 rbxname = "x1e2p"
 local prefix = "!"
 local LPlayer = game.Players.x1e2p
@@ -2419,8 +2416,6 @@ messageLL = "Тимурка хороший"
 speed = 1 --how fast tweengoto is 
 render1 = false --if alts auto unrender when excuted
 resettime = 5.4 --how long it will take to teleport alts back to cordinates noclip command
-
-end
 ---------------------commands--------------------------------------------------------------------------
 --tp teleports alts to you
 --msg says message
