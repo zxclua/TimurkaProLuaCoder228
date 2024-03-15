@@ -3,5 +3,9 @@ local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.c
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))() -- Ваш скрипт
 else
-  game:service('Players').LocalPlayer:Kick('.')
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssFREEscriptVERSION", true))() -- Ваш скрипт
 end
+
+
+
+--game:service('Players').LocalPlayer:Kick('.')
