@@ -2557,6 +2557,9 @@ local args = {
     [2] = "normalchat"
 }
 
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+	end
+
 if cmd == "check" then
 local args = {
     [1] = "Im using ProstoHub Premium!!",
@@ -2564,7 +2567,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-    end
+	end
 
         if cmd == "cmds" then
 local args = {
