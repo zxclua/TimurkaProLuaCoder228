@@ -1,1 +1,5 @@
-
+userids = {
+-- [айди игрока в роблоксе] = true,
+[4468194742] = true, -- main acc
+}
+return userids
