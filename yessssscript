@@ -563,7 +563,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Left,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("Spawns"):WaitForChild("SpawnLocation"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
@@ -573,7 +573,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Right,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("Spawns"):WaitForChild("SpawnLocation"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
