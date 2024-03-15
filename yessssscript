@@ -57,6 +57,32 @@ s0[6].Grip = CFrame.new(1.5, -1.70000005, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0
 s0[6].Parent = pl.Character
 s0[7].Grip = CFrame.new(1.5, -2.70000005, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
 s0[7].Parent = pl.Character
+s0[8].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[8].Parent = pl.Character
+s0[9].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[9].Parent = pl.Character
+s0[10].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[10].Parent = pl.Character
+s0[11].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[11].Parent = pl.Character
+s0[12].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[12].Parent = pl.Character
+s0[13].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[13].Parent = pl.Character
+s0[14].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[14].Parent = pl.Character
+s0[15].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[15].Parent = pl.Character
+s0[16].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[16].Parent = pl.Character
+s0[17].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[17].Parent = pl.Character
+s0[18].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[18].Parent = pl.Character
+s0[19].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[19].Parent = pl.Character
+s0[20].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
+s0[20].Parent = pl.Character
   	end    
 })
 
