@@ -2410,6 +2410,8 @@ OrionLib:MakeNotification({
 
 ------------------------important varibles------------------------------------------------------------
 
+while wait() do
+
 rbxname = "x1e2p"
 local prefix = "!"
 local LPlayer = game.Players.x1e2p
@@ -2418,6 +2420,7 @@ speed = 1 --how fast tweengoto is
 render1 = false --if alts auto unrender when excuted
 resettime = 5.4 --how long it will take to teleport alts back to cordinates noclip command
 
+end
 ---------------------commands--------------------------------------------------------------------------
 --tp teleports alts to you
 --msg says message
