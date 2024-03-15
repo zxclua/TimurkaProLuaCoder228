@@ -6,6 +6,11 @@ else
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssFREEscriptVERSION", true))() -- Ваш скрипт
 end
 
+local blacklistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
+
+if blacklistecheck[game:service('Players').LocalPlayer.UserId] then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))() -- Ваш скрипт
+
 
 
 --game:service('Players').LocalPlayer:Kick('.')
