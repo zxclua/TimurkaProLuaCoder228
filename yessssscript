@@ -31,6 +31,13 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Discord Server",
+	Callback = function()
+setclipboard("https://discord.gg/e7uXsSCV9S")
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
