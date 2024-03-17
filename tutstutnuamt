@@ -1,0 +1,11 @@
+local args = {
+    [1] = 14878985905,
+    [2] = Enum.NormalId.Right,
+    [3] = 250,
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -130.908931732177734, 0.9996573328971863, -0.004585431423038244, 0.025772124528884888, 1.1852729908667925e-10, 0.9845380783081055, 0.1751711070537567, -0.026176869869232178, -0.1751110851764679, 0.9842007160186768)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
