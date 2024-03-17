@@ -468,6 +468,25 @@ end
 })
 
 Tab:AddButton({
+	Name = "Auto spray equip",
+	Callback = function()
+while wait() do
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+v:Stop() 
+end
+wait(10)
+end
+  	end    
+})
+
+
+Tab:AddButton({
 	Name = "Test feature",
 	Callback = function()
 pl = game.Players.LocalPlayer
@@ -500,12 +519,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
