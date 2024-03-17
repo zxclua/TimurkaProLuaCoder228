@@ -132,7 +132,7 @@ Tab:AddButton({
 	Name = "Stop Animate",
 	Callback = function()
 for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
-v:AdjustSpeed(8) 
+v:AdjustSpeed(0) 
 end
   	end    
 })
