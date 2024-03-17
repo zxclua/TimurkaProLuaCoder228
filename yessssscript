@@ -475,6 +475,12 @@ local args = {
     [1] = "SprayPaint"
 }
 
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
 
 for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
@@ -561,13 +567,7 @@ local args = {
     [1] = "SprayPaint"
 }
 
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))\
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
@@ -795,12 +795,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
@@ -1149,12 +1143,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
             v.Parent = game.Players.LocalPlayer.Character
     end
@@ -1474,12 +1462,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
             v.Parent = game.Players.LocalPlayer.Character
     end
@@ -1797,12 +1779,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
@@ -2706,12 +2682,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "Emotes" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
 
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
