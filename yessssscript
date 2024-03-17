@@ -129,6 +129,15 @@ end
 })
 
 Tab:AddButton({
+	Name = "Stop Animate",
+	Callback = function()
+for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+v:AdjustSpeed(8) 
+end
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Test emote",
 	Callback = function()
 a = Instance.new("Animation") 
