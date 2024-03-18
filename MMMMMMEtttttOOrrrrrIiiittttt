@@ -522,3 +522,2100 @@ local args = {
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
 
+-- just copies
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+--second raid
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+--second raid
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+--second raid
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(15,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-10,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(30,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(5,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-20,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(50,100,50)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-50,100,10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+--second raid
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(63,100,-32)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(44,100,22)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-34,100,-20)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-4,100,-10)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-31,100,62)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(71,100,30)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.5)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(8,100,17)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.1)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(100,100,100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-100,100,-100)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.3)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-46,100,35)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.2)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(-17,100,11)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
+
+wait(0.4)
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Front,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16785100437,
+    [2] = Enum.NormalId.Back,
+    [3] = 10,
+    [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(32,100,19)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
