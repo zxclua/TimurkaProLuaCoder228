@@ -563,7 +563,7 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 })
 
 Tab:AddButton({
-	Name = "Reset all",
+	Name = "Meteorite kill all",
 	Callback = function()
 local args = {
     [1] = "SprayPaint"
