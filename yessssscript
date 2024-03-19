@@ -1239,8 +1239,8 @@ local args = {
     [1] = 5689055978,
     [2] = Enum.NormalId.Front,
     [3] = 10,
-    [4] = gane.Player.LocalPlayer.Character.HumanoidRootPart,
-    [5] = gane.Player.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,3,1)
+    [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,3,1)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
@@ -1249,8 +1249,8 @@ local args = {
     [1] = 5689055978,
     [2] = Enum.NormalId.Back,
     [3] = 10,
-    [4] = gane.Player.LocalPlayer.Character.HumanoidRootPart,
-    [5] = gane.Player.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,3,1)
+    [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,3,1)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
