@@ -498,7 +498,7 @@ end
 })
 
 Tab:AddToggle({
-	Name = "LoopResetAll",
+	Name = "Loop Reset All",
 	Default = false,
 	Callback = function(Value)
 getgenv().LoopResetAll = Value
