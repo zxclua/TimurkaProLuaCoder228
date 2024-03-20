@@ -61,6 +61,21 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Force trade",
+	Default = false,
+	Callback = function(Value)
+getgenv().ForceTrade = Value
+
+while ForceTrade == true do
+
+game:GetService("ReplicatedStorage"):WaitForChild("Trade"):WaitForChild("AcceptRequest"):FireServer()
+
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
@@ -117,15 +132,6 @@ s0[19].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 
 s0[19].Parent = pl.Character
 s0[20].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
 s0[20].Parent = pl.Character
-  	end    
-})
-
-Tab:AddButton({
-	Name = "Force Trade(cant be off)",
-	Callback = function()
-while wait() do
-game:GetService("ReplicatedStorage"):WaitForChild("Trade"):WaitForChild("AcceptRequest"):FireServer()
-end
   	end    
 })
 
