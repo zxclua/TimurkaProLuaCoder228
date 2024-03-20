@@ -351,6 +351,49 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Loop trap Murder",
+	Default = false,
+	Callback = function(Value)
+getgenv().LoopTrapMurder = Value
+
+while LoopTrapMurder == true do
+    for _, v in pairs(game.Players:GetPlayers()) do
+        if v.Character ~= nil and v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+        murder = v.Name
+        local args = {
+            [1] = v.Character.HumanoidRootPart.CFrame
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("TrapSystem"):WaitForChild("PlaceTrap"):InvokeServer(unpack(args))
+    end
+end
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Loop trap Sheriff",
+	Default = false,
+	Callback = function(Value)
+getgenv().LoopTrapSheriff = Value
+
+while LoopTrapSheriff == true do
+    for _,v in pairs(game.Players:GetPlayers()) do
+        if v.Character ~= nil and v.Backpack:FindFirstChild("Gun") or v.Character:FindFirstChild("Gun") then
+        local args = {
+            [1] = v.Character.HumanoidRootPart.CFrame
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("TrapSystem"):WaitForChild("PlaceTrap"):InvokeServer(unpack(args))
+    end
+end
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake Inventory",
 	Callback = function()
