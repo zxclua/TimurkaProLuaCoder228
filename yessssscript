@@ -43,13 +43,13 @@ Tab:AddToggle({
 	Callback = function(Value)
 getgenv().PlayerPet = Value
 
-while PlayerPet == true do
-    local args = {
+local args = {
         [1] = Value
     }
     
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gameplay"):WaitForChild("Stealth"):FireServer(unpack(args))
 
+while PlayerPet == true do
     local args = {
         [1] = " "
     }
