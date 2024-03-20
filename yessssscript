@@ -332,30 +332,6 @@ game:GetService("ReplicatedStorage"):WaitForChild("TrapSystem"):WaitForChild("Pl
   	end    
 })
 
-Tab:AddToggle({
-	Name = "LoopTrapAll",
-	Default = false,
-	Callback = function(Value)
-getgenv().LoopTrapAll = Value
-
-while LoopTrapAll == true do
-    z = game.Players.LocalPlayer
-f = z.Character.SprayPaint
-for _, v in game.Players:GetChildren() do
-if v ~= z then
-if v.Character then
-if v.Character:FindFirstChild("HumanoidRootPart") then
-    local args = {
-        [1] = v.Character.HumanoidRootPart.CFrame
-    }
-    
-    game:GetService("ReplicatedStorage"):WaitForChild("TrapSystem"):WaitForChild("PlaceTrap"):InvokeServer(unpack(args))
-
-game:GetService("RunService").RenderStepped:Wait()
-end
-	end    
-})
-
 Tab:AddButton({
 	Name = "Fake Inventory",
 	Callback = function()
