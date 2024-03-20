@@ -55,6 +55,8 @@ while PlayerPet == true do
     }
     
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Inventory"):WaitForChild("RenamePet"):FireServer(unpack(args))
+
+game:GetService("RunService").RenderStepped:Wait()
 end
 	end    
 })
