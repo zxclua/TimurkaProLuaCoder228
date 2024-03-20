@@ -37,6 +37,28 @@ setclipboard("https://discord.gg/e7uXsSCV9S")
   	end    
 })
 
+Tab:AddToggle({
+	Name = "Player pet(ghost perk needed)",
+	Default = false,
+	Callback = function(Value)
+getgenv().PlayerPet = Value
+
+while PlayerPet == true do
+    local args = {
+        [1] = Value
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gameplay"):WaitForChild("Stealth"):FireServer(unpack(args))
+
+    local args = {
+        [1] = ""
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Inventory"):WaitForChild("RenamePet"):FireServer(unpack(args))
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
