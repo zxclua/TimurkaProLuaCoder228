@@ -51,7 +51,7 @@ while PlayerPet == true do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gameplay"):WaitForChild("Stealth"):FireServer(unpack(args))
 
     local args = {
-        [1] = ""
+        [1] = " "
     }
     
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Inventory"):WaitForChild("RenamePet"):FireServer(unpack(args))
