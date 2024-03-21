@@ -87,6 +87,8 @@ game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 
+wait(0.5)
+
 pl = game.Players.LocalPlayer
 s = pl.Backpack:GetChildren()
 s0 = {}
@@ -132,6 +134,21 @@ s0[19].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 
 s0[19].Parent = pl.Character
 s0[20].Grip = CFrame.new(1.5, 0.300000012, 1.70000005, 1, 0, 0, 0, 0, -1, 0, 1, 0)
 s0[20].Parent = pl.Character
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "Emotes" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+wait(0.1)
+for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+   if v:IsA("Tool")  then
+    wait(0.1)
+    v.Parent = game.Players.LocalPlayer.Character
+    wait(0.1)
+    v.Parent = game.Workspace
+end
+end
   	end    
 })
 
