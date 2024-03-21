@@ -46,7 +46,7 @@ local args = {
 
 while PlayerPet == true do
     local args = {
-        [1] = "LOL!"
+        [1] = ".gg/e7uXsSCV9S"
     }
     
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Inventory"):WaitForChild("RenamePet"):FireServer(unpack(args))
