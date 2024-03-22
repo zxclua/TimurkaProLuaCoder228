@@ -2,7 +2,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -130.908931732177734)
 }
 
@@ -14,7 +14,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -127.908931732177734)
 }
 
@@ -26,7 +26,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -124.908931732177734)
 }
 
@@ -39,7 +39,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -120.908931732177734)
 }
 
@@ -51,7 +51,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -116.908931732177734)
 }
 
@@ -64,7 +64,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -112.908931732177734)
 }
 
@@ -77,7 +77,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -108.908931732177734)
 }
 
@@ -89,7 +89,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -100.908931732177734)
 }
 
@@ -101,7 +101,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -96.908931732177734)
 }
 
@@ -113,7 +113,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -92.908931732177734)
 }
 
@@ -125,7 +125,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -88.908931732177734)
 }
 
@@ -137,7 +137,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -84.908931732177734)
 }
 
@@ -150,7 +150,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -80.908931732177734)
 }
 
@@ -162,7 +162,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -76.908931732177734)
 }
 
@@ -175,7 +175,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -72.908931732177734)
 }
 
@@ -188,7 +188,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -68.908931732177734)
 }
 
@@ -201,7 +201,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -64.908931732177734)
 }
 
@@ -213,7 +213,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -60.908931732177734)
 }
 
@@ -226,7 +226,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -56.908931732177734)
 }
 
@@ -238,7 +238,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -52.908931732177734)
 }
 
@@ -250,7 +250,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -48.908931732177734)
 }
 
@@ -262,7 +262,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -44.908931732177734)
 }
 
@@ -274,7 +274,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -40.908931732177734)
 }
 
@@ -286,7 +286,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -36.908931732177734)
 }
 
@@ -298,7 +298,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -32.908931732177734)
 }
 
@@ -310,7 +310,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -28.908931732177734)
 }
 
@@ -322,7 +322,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -24.908931732177734)
 }
 
@@ -334,7 +334,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -20.908931732177734)
 }
 
@@ -346,7 +346,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -16.908931732177734)
 }
 
@@ -358,7 +358,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -12.908931732177734)
 }
 
@@ -370,7 +370,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -8.908931732177734)
 }
 
@@ -382,7 +382,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -4.908931732177734)
 }
 
@@ -394,7 +394,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 0.908931732177734)
 }
 
@@ -405,7 +405,7 @@ wait(0.4)
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 4.908931732177734)
 }
 
@@ -417,7 +417,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 8.908931732177734)
 }
 
@@ -429,7 +429,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 12.908931732177734)
 }
 
@@ -441,7 +441,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 16.908931732177734)
 }
 
@@ -453,7 +453,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 20.908931732177734)
 }
 
@@ -465,7 +465,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 24.908931732177734)
 }
 
@@ -477,7 +477,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 28.908931732177734)
 }
 
@@ -489,7 +489,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Right,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 32.908931732177734)
 }
 
@@ -509,7 +509,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -130.908931732177734)
 }
 
@@ -519,7 +519,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -127.908931732177734)
 }
 
@@ -530,7 +530,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -124.908931732177734)
 }
 
@@ -543,7 +543,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -120.908931732177734)
 }
 
@@ -555,7 +555,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -116.908931732177734)
 }
 
@@ -568,7 +568,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -112.908931732177734)
 }
 
@@ -581,7 +581,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -108.908931732177734)
 }
 
@@ -593,7 +593,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -100.908931732177734)
 }
 
@@ -605,7 +605,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -96.908931732177734)
 }
 
@@ -617,7 +617,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -92.908931732177734)
 }
 
@@ -629,7 +629,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -88.908931732177734)
 }
 
@@ -641,7 +641,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -84.908931732177734)
 }
 
@@ -654,7 +654,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -80.908931732177734)
 }
 
@@ -666,7 +666,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -76.908931732177734)
 }
 
@@ -679,7 +679,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -72.908931732177734)
 }
 
@@ -692,7 +692,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -68.908931732177734)
 }
 
@@ -704,7 +704,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -64.908931732177734)
 }
 
@@ -716,7 +716,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -60.908931732177734)
 }
 
@@ -729,7 +729,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -56.908931732177734)
 }
 
@@ -741,7 +741,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -52.908931732177734)
 }
 
@@ -753,7 +753,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -48.908931732177734)
 }
 
@@ -765,7 +765,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -44.908931732177734)
 }
 
@@ -777,7 +777,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -40.908931732177734)
 }
 
@@ -789,7 +789,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -36.908931732177734)
 }
 
@@ -801,7 +801,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -32.908931732177734)
 }
 
@@ -813,7 +813,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -28.908931732177734)
 }
 
@@ -825,7 +825,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -24.908931732177734)
 }
 
@@ -837,7 +837,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -20.908931732177734)
 }
 
@@ -849,7 +849,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -16.908931732177734)
 }
 
@@ -861,7 +861,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -12.908931732177734)
 }
 
@@ -873,7 +873,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -8.908931732177734)
 }
 
@@ -885,7 +885,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, -4.908931732177734)
 }
 
@@ -897,7 +897,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 0.908931732177734)
 }
 
@@ -908,7 +908,7 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 4.908931732177734)
 }
 
@@ -920,7 +920,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 8.908931732177734)
 }
 
@@ -932,7 +932,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 12.908931732177734)
 }
 
@@ -944,7 +944,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 16.908931732177734)
 }
 
@@ -956,7 +956,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 20.908931732177734)
 }
 
@@ -968,7 +968,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 24.908931732177734)
 }
 
@@ -980,7 +980,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 28.908931732177734)
 }
 
@@ -992,7 +992,7 @@ local args = {
     [1] = 14878985905,
     [2] = Enum.NormalId.Left,
     [3] = 250,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("MeshPart"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
     [5] = CFrame.new(-108.35073852539062, 141.37982177734375, 32.908931732177734)
 }
 
