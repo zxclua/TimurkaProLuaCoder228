@@ -241,11 +241,17 @@ Tab:AddToggle({
  Default = false,
  Callback = function(Value)
 getgenv().FakeGunRain = Value
+pcall(function()
 
 while FakeGunRain == true do
     game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
     wait(0.1)
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
+End
+End
+End
+End
+End)
 If not FakeGunRain then
 Break
 end
