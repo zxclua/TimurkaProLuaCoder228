@@ -539,7 +539,7 @@ game.ReplicatedStorage.Remotes.Misc.PlayEmote:Fire("headless")
 
 local Tab = Window:MakeTab({
 	Name = "MM2 Spray",
-	Icon = "rbxassetid://14925193583",
+	Icon = "rbxassetid://14861637738",
 	PremiumOnly = false
 })
 
