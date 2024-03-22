@@ -244,7 +244,7 @@ getgenv().FakeGunRain = Value
 
 while FakeGunRain == true do
     game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-wait(0.2)
+
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game:GetService("RunService").RenderStepped:Wait()
 end
