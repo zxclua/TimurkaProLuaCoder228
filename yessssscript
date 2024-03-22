@@ -644,7 +644,7 @@ local args = {
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args)) 
 
-wait(1.8)
+wait(1.6)
 
 z = game.Players.LocalPlayer
 f = z.Character.SprayPaint
