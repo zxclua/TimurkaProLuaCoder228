@@ -237,18 +237,20 @@ game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = worksp
 })
 
 Tab:AddToggle({
-	Name = "Fake gun rain",
-	Default = false,
-	Callback = function(Value)
+ Name = "Fake gun rain",
+ Default = false,
+ Callback = function(Value)
 getgenv().FakeGunRain = Value
 
 while FakeGunRain == true do
     game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
     wait(0.1)
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game:GetService("RunService").RenderStepped:Wait()
+If not FakeGunRain then
+Break
 end
-	end    
+end
+ end    
 })
 
 Tab:AddButton({
