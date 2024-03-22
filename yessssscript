@@ -242,6 +242,11 @@ Tab:AddToggle({
  Callback = function(Value)
 getgenv().FakeGunRain = Value
 
+while FakeGunRain == true do
+    game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
+    game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
+game:GetService("RunService").RenderStepped:Wait()
+end
  end    
 })
 
