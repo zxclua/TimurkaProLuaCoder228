@@ -237,7 +237,7 @@ game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = worksp
 })
 
 Tab:AddToggle({
- Name = "Fake gun rain(not work)",
+ Name = "Fake gun rain",
  Default = false,
  Callback = function(Value)
 getgenv().FakeGunRain = Value
