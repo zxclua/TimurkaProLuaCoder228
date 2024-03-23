@@ -3244,8 +3244,8 @@ end
 })
 
 OrionLib:MakeNotification({
-	Name = "Future",
-	Content = "Future hub loaded!",
+	Name = "ProstoHub",
+	Content = "ProstoHub loaded!",
 	Image = "rbxassetid://8709610734",
 	Time = 10
 })
