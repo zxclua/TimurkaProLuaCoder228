@@ -47,7 +47,7 @@ game.Workspace.Doors:Destroy()
 Tab:AddButton({
 	Name = "Remington",
 	Callback = function()
-gondon = game.Players.LocalPlayer.Character.HumanoidRootPart
+gondon = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-942.912354, 94.1287613, 2056.02783, 0.99823451, -4.09143341e-09, 0.0593960732, 4.3030437e-09, 1, -3.4347909e-09, -0.0593960732, 3.68431063e-09, 0.99823451)
 local args = {
     [1] = workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("ITEMPICKUP")
@@ -55,6 +55,6 @@ local args = {
 
 workspace:WaitForChild("Remote"):WaitForChild("ItemHandler"):InvokeServer(unpack(args))
 wait(0.2,5)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = gondon.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = gondon
        end    
 })
