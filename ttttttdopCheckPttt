@@ -1,3 +1,7 @@
 if game.PlaceId == 142823291 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))()
 end
+
+if game.PlaceId == 155615604 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))()
+end
