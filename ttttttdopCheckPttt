@@ -1,7 +1,7 @@
-if game.PlaceId == 142823291 then
+if game.PlaceId == 142823291 then --mm2
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))()
 end
 
-if game.PlaceId == 155615604 then
+if game.PlaceId == 155615604 then -- prision life
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tttttttPrisionttttP", true))()
 end
