@@ -182,56 +182,56 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.55
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.6
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.65
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.7
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.75
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.8
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.9
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
 
 local args = {
-    [1] = "CharacterSizeDown",
+    [1] = "CharacterSizeUp",
     [2] = 0.95
 }
 
