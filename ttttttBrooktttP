@@ -43,7 +43,7 @@ Tab:AddToggle({
 	Callback = function(Value)
 getgenv().RainbowRPName = Value
 
-while PlayerPet == true do
+while RainbowRPName == true do
     local args = {
     [1] = "PickingRPNameColor",
     [2] = Color3.new(1, 0.02037602663040161, 0)
