@@ -1,5 +1,11 @@
-if game.PlaceId == 142823291 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssFREEscriptVERSION", true))()
-elseif game.PlaceId == 155615604 then
-https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tttttttPrisionttttF
+if game.PlaceId == 142823291 then -- mm2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssFREEscriptVERSION", true))()
+end
+
+if game.PlaceId == 155615604 then -- prision life(beta)
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tttttttPrisionttttF", true))()
+end
+
+if game.PlaceId == 4924922222 then -- brookhaven
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttBrooktttF", true))()
 end
