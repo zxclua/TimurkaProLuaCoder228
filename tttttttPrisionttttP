@@ -55,6 +55,6 @@ local args = {
 
 workspace:WaitForChild("Remote"):WaitForChild("ItemHandler"):InvokeServer(unpack(args))
 wait(0.2,5)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = gondon
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = gondon.new()
        end    
 })
