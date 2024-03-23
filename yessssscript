@@ -175,6 +175,20 @@ end
   	end    
 })
 
+Tab:AddToggle({
+	Name = "Animation speed toggle",
+	Default = false,
+	Callback = function(Value)
+getgenv().as = Value
+while as == true do
+for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
+v:AdjustSpeed(10) 
+end
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Stop Animate",
 	Callback = function()
