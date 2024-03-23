@@ -1,5 +1,7 @@
 if game.PlaceId == 142823291 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssscript", true))()
-  elseif
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssssFREEscriptVERSION", true))()
+elseif game.PlaceId == 155615604 then
+https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tttttttPrisionttttP
+  else
   print("Your game not supported!")
 end
