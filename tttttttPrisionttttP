@@ -1,1 +1,38 @@
+--[[
 
+$$$$$$$\                                  $$\               $$\   $$\           $$\             $$$$$$$\                                    $$\                         
+$$  __$$\                                 $$ |              $$ |  $$ |          $$ |            $$  __$$\                                   \__|                        
+$$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$$\ $$$$$$\    $$$$$$\  $$ |  $$ |$$\   $$\ $$$$$$$\        $$ |  $$ | $$$$$$\   $$$$$$\  $$$$$$\$$$$\  $$\ $$\   $$\ $$$$$$\$$$$\  
+$$$$$$$  |$$  __$$\ $$  __$$\ $$  _____|\_$$  _|  $$  __$$\ $$$$$$$$ |$$ |  $$ |$$  __$$\       $$$$$$$  |$$  __$$\ $$  __$$\ $$  _$$  _$$\ $$ |$$ |  $$ |$$  _$$  _$$\ 
+$$  ____/ $$ |  \__|$$ /  $$ |\$$$$$$\    $$ |    $$ /  $$ |$$  __$$ |$$ |  $$ |$$ |  $$ |      $$  ____/ $$ |  \__|$$$$$$$$ |$$ / $$ / $$ |$$ |$$ |  $$ |$$ / $$ / $$ |
+$$ |      $$ |      $$ |  $$ | \____$$\   $$ |$$\ $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |      $$ |      $$ |      $$   ____|$$ | $$ | $$ |$$ |$$ |  $$ |$$ | $$ | $$ |
+$$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |$$$$$$$  |      $$ |      $$ |      \$$$$$$$\ $$ | $$ | $$ |$$ |\$$$$$$  |$$ | $$ | $$ |
+\__|      \__|       \______/ \_______/    \____/  \______/ \__|  \__| \______/ \_______/       \__|      \__|       \_______|\__| \__| \__|\__| \______/ \__| \__| \__|
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                
+  
+]]--
+                                                                                               
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "ProstoHub Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "PHP", IntroText = "Best of the best"})
+
+local Tab = Window:MakeTab({
+	Name = "Prision life",
+	Icon = "rbxassetid://15475079065",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddButton({
+	Name = "Discord Server",
+	Callback = function()
+setclipboard("https://discord.gg/e7uXsSCV9S")
+  	end    
+})
