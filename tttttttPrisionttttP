@@ -36,3 +36,10 @@ Tab:AddButton({
 setclipboard("https://discord.gg/e7uXsSCV9S")
   	end    
 })
+
+Tab:AddButton({
+	Name = "Remove doors",
+	Callback = function()
+game.Workspace.Doors:Destroy()
+  	end    
+})
