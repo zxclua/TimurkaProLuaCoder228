@@ -49,7 +49,7 @@ local Section = Tab:AddSection({
 
 Tab:AddTextbox({
 	Name = "WalkSpeed",
-	Default = "Changes your WalkSpeed",
+	Default = "16",
 	TextDisappear = true,
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
@@ -58,7 +58,7 @@ Tab:AddTextbox({
 
 Tab:AddTextbox({
 	Name = "JumpPower",
-	Default = "Changes your JumpPower",
+	Default = "50",
 	TextDisappear = true,
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
