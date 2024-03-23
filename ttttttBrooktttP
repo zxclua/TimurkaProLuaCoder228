@@ -105,6 +105,87 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Player size spammer",
+	Default = false,
+	Callback = function(Value)
+getgenv().playersizespammer = Value
+while playersizespammer == true do
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 1.0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.95
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.9
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.8
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.75
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.7
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.65
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.6
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.55
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeDown",
+    [2] = 0.5
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 local Tab = Window:MakeTab({
 	Name = "Player",
 	Icon = "rbxassetid://15475079065",
