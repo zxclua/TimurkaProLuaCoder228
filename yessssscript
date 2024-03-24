@@ -161,7 +161,6 @@ game.ReplicatedStorage.DefaultChatSystemChatEvents.OnChannelLeft.OnClientEvent:C
     if chnl == "dead" then
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
     end
-end)
   	end    
 })
 
