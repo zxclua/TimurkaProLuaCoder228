@@ -3257,6 +3257,26 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 end
 })
 
+local Tab = Window:MakeTab({
+	Name = "MM2 special",
+	Icon = "rbxassetid://14861637738",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddButton({
+	Name = "Commands",
+	Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands"),true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands2"),true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands3"),true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands4"),true))()
+  	end    
+})
+
 OrionLib:MakeNotification({
 	Name = "ProstoHub",
 	Content = "ProstoHub loaded!",
