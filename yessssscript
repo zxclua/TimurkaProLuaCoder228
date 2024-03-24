@@ -153,18 +153,6 @@ end
 })
 
 Tab:AddButton({
-	Name = "See dead chat",
-	Callback = function()
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
-game.ReplicatedStorage.DefaultChatSystemChatEvents.OnChannelLeft.OnClientEvent:Connect(function(chnl)
-    if chnl == "dead" then
-        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
-    end
-  	end    
-})
-
-Tab:AddButton({
 	Name = "GunTP",
 	Callback = function()
 local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
