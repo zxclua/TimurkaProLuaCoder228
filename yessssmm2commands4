@@ -1,0 +1,86 @@
+Player = game.Players.LocalPlayer
+Players = game.Players
+
+function FindToolSpray()
+    local a,b,c,d = Player.Backpack:FindFirstChild("SprayPaint"), false, false, false
+    if Player.Character then
+        b = Player.Character:FindFirstChild("SprayPaint")
+    end
+    if a then return a end
+    if b then return b end
+    if not a and not b then
+        for _, v in pairs(Player.Backpack:GetDescendants()) do
+            if v:IsA("Tool") then
+                if v.Name == "SprayPaint" then
+                    if v:FindFirstChild("Remote") then
+                        c = v
+                        return v
+                    end
+                end
+            end
+        end
+    end
+    if not a and not b and not c then
+        for _, u in pairs(workspace:GetChildren()) do
+            if u.Name == "SprayPaint" then
+                if u:FindFirstChild("Remote") then
+                    d = u
+                    return u
+                end
+            end
+        end
+    end
+    if not a and not b and not c and not d then
+        print("Spray not found - ???")
+        return false
+    end
+end
+
+function mch(plr)
+    local q = FindToolSpray()
+    if q then
+        if plr.Character then
+            if plr.Character:FindFirstChild("HumanoidRootPart") then
+                local args = {
+    [1] = 16824808087,
+    [2] = Enum.NormalId.Front,
+    [3] = 6,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,6,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16824808087,
+    [2] = Enum.NormalId.Back,
+    [3] = 6,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,6,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+            end
+        end
+    end
+end
+
+function MainCommands(plr, msg)
+    if msg == "mch" then
+        mch(plr)
+    end
+end
+
+for _, v in Players:GetChildren() do
+    if v ~= Player then
+        v.Chatted:Connect(function(msg)
+            MainCommands(v, msg)
+        end)
+    end
+end
+
+Players.PlayerAdded:Connect(function(plr)
+    plr.Chatted:Connect(function(msg)
+        MainCommands(plr, msg)
+    end)
+end)
