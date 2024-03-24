@@ -242,10 +242,8 @@ end
 	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "Player",
-	Icon = "rbxassetid://15475079065",
-	PremiumOnly = false
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
 })
 
 local Section = Tab:AddSection({
