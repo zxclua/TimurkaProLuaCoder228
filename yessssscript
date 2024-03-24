@@ -640,6 +640,45 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Auto spray equip",
+	Default = false,
+	Callback = function(Value)
+getgenv().ase = Value
+
+while ase == true do
+for _, t in pairs(workspace:GetChildren()) do
+    if t.Name == "SprayPaint" then
+     if t:FindFirstChild("Remote") then
+      t:Destroy()
+     end
+    end
+   end
+   if FindToolSpray() then
+    local q = FindToolSpray()
+    game.ReplicatedStorage.Remotes.Extras.ReplicateToy:InvokeServer("SprayPaint")
+    while not Player.Backpack:FindFirstChild("SprayPaint") do
+     wait()
+    end
+    Player.Backpack.SprayPaint.Parent = Player.Character
+    q.Grip = CFrame.new(0, 250, 0)
+    q.Parent = Player.Backpack
+    q.Parent = Player.Character
+    wait(0.04)
+    q.CanBeDropped = true
+    q.Parent = workspace
+    q.Handle.Transparency = 1
+    q.Handle.Massless = true
+    q.Handle.CanCollide = false
+    q.Handle.CanTouch = false
+    q.Handle.Anchored = true
+    RemoveToolWeld()
+   end
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Bomb",
 	Callback = function()
