@@ -52,7 +52,15 @@ function dick(plr)
     if q then
         if plr.Character then
             if plr.Character:FindFirstChild("HumanoidRootPart") then
-                q.Remote:FireServer(0, Enum.NormalId.Front, 2048, plr.Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, -1000, 0))
+local args = {
+    [1] = 14889784744,
+    [2] = Enum.NormalId.Top,
+    [3] = 5,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.1,-2.5)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
             end
         end
     end
