@@ -54,6 +54,31 @@ function MainCommands(plr, msg)
     if msg == "trap" then
 	game.ReplicatedStorage.TrapSystem.PlaceTrap:InvokeServer(plr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1, 0))
     end
+if msg == "nc" then
+	local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+wait(0.4)
+
+local args = {
+    [1] = 14882467507,
+    [2] = Enum.NormalId.Top,
+    [3] = 99999999,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,94894,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+    end
 if msg == "fbox" then
 local args = {
     [1] = "SprayPaint"
