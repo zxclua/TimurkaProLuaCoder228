@@ -3258,7 +3258,7 @@ end
 })
 
 local Tab = Window:MakeTab({
-	Name = "MM2 special",
+	Name = "MM2 Special",
 	Icon = "rbxassetid://14861637738",
 	PremiumOnly = false
 })
