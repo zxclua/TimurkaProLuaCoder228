@@ -18,7 +18,7 @@ $$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ProstoHub Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "PHP", IntroText = "Best of the best"})
+local Window = OrionLib:MakeWindow({Name = "Prosto Hub Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "PHP", IntroText = "Best of the best"})
 
 local Tab = Window:MakeTab({
 	Name = "MM2",
@@ -3275,8 +3275,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLua
 })
 
 OrionLib:MakeNotification({
-	Name = "ProstoHub",
-	Content = "ProstoHub loaded!",
+	Name = "Prosto Hub",
+	Content = "Prosto Hub loaded!",
 	Image = "rbxassetid://8709610734",
 	Time = 10
 })
@@ -3451,7 +3451,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 
 if cmd == "check" then
 local args = {
-    [1] = "Im using ProstoHub Premium!!",
+    [1] = "Im using Prosto Hub Premium!!",
     [2] = "normalchat"
 }
 
