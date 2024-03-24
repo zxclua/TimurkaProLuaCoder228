@@ -47,9 +47,26 @@ function resetplayer(plr)
     end
 end
 
+function dick(plr)
+    local q = FindToolSpray()
+    if q then
+        if plr.Character then
+            if plr.Character:FindFirstChild("HumanoidRootPart") then
+                q.Remote:FireServer(0, Enum.NormalId.Front, 2048, plr.Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, -1000, 0))
+            end
+        end
+    end
+end
+
 function MainCommands(plr, msg)
     if msg == "reset" then
         resetplayer(plr)
+    end
+end
+
+function MainCommands(plr, msg)
+    if msg == "dk" then
+        dick(plr)
     end
 end
 
