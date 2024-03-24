@@ -153,7 +153,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Fake gun dick(Fake gun perk)",
+	Name = "See dead chat",
 	Callback = function()
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
 game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/join dead", "alive")
