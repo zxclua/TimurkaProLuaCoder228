@@ -47,110 +47,45 @@ function resetplayer(plr)
     end
 end
 
-function dick(plr)
-    local q = FindToolSpray()
-    if q then
-        if plr.Character then
-            if plr.Character:FindFirstChild("HumanoidRootPart") then
-                local args = {
-    [1] = 14889784744,
-    [2] = Enum.NormalId.Top,
-    [3] = 5,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.1,-2.5)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-            end
-        end
-    end
-end
-
-function fbox(plr)
-    local q = FindToolSpray()
-    if q then
-        if plr.Character then
-            if plr.Character:FindFirstChild("HumanoidRootPart") then
-                local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Top,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Bottom,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,5,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Front,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,5)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-
-local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Back,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Left,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(5,0,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-local args = {
-    [1] = 5689055978,
-    [2] = Enum.NormalId.Right,
-    [3] = 10,
-    [4] = plr.Character.HumanoidRootPart,
-    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(-5,0,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-            end
-        end
-    end
-end
-
 function MainCommands(plr, msg)
     if msg == "reset" then
         resetplayer(plr)
     end
-end
+    if msg == "trap" then
+	game.ReplicatedStorage.TrapSystem.PlaceTrap:InvokeServer(plr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1, 0))
+    end
+   if msg == "mch" then
+	local args = {
+    [1] = "SprayPaint"
+}
 
-function MainCommands(plr, msg)
-    if msg == "dk" then
-        dick(plr)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
     end
 end
 
-function MainCommands(plr, msg)
-    if msg == "fbox" then
-        fbox(plr)
+local args = {
+    [1] = 16824808087,
+    [2] = Enum.NormalId.Front,
+    [3] = 6,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,6,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+    [1] = 16824808087,
+    [2] = Enum.NormalId.Back,
+    [3] = 6,
+    [4] = plr.Character.HumanoidRootPart,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,6,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
     end
 end
 
