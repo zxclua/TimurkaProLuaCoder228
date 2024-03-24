@@ -3283,9 +3283,6 @@ Tab:AddButton({
 	Name = "Commands",
 	Callback = function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands"),true))()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands2"),true))()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands3"),true))()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssmm2commands4"),true))()
   	end    
 })
 
