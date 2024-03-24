@@ -13,7 +13,7 @@ $$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "ProstoHub Free", HidePremium = false, SaveConfig = true, ConfigFolder = "PH", IntroText = "Best of the best"})
+local Window = OrionLib:MakeWindow({Name = "Prosto Hub Free", HidePremium = false, SaveConfig = true, ConfigFolder = "PH", IntroText = "Best of the best"})
 
 local Tab = Window:MakeTab({
 	Name = "Prision life",
