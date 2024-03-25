@@ -1584,7 +1584,7 @@ end
 })
 
 Tab:AddToggle({
-	Name = "Auto spray equip",
+	Name = "Crash server(dont work)",
 	Default = false,
 	Callback = function(Value)
 getgenv().cs = Value
