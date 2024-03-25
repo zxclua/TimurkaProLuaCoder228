@@ -259,34 +259,10 @@ getgenv().FakeGunRain = Value
 while FakeGunRain == true do
     game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-wait(1)
+wait(0.5)
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-wait(1)
+wait(0.5)
 game:GetService("RunService").RenderStepped:Wait()
 end
  end    
