@@ -1583,6 +1583,38 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 end
 })
 
+Tab:AddToggle({
+	Name = "Auto spray equip",
+	Default = false,
+	Callback = function(Value)
+getgenv().cs = Value
+
+while cs == true do
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+local args = {
+    [1] = 80373024,
+    [2] = Enum.NormalId.Bottom,
+    [3] = 2048,
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Union"),
+    [5] = CFrame.new(-88333.08155822753906, 135.34986877441406, 322225.40642547607422, -0.9562745690345764, -0.1925729215145111, 0.22012433409690857, -4.456463642554809e-09, 0.7526375651359558, 0.6584351658821106, -0.2924705743789673, 0.6296448111534119, -0.7197281122207642)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Minecraft heart",
 	Callback = function()
