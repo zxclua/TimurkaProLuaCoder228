@@ -257,13 +257,12 @@ Tab:AddToggle({
 getgenv().FakeGunRain = Value
 
 while FakeGunRain == true do
-    game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
+game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 wait(0.5)
-    game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-wait(0.5)
-game:GetService("RunService").RenderStepped:Wait()
+game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
+game:GetService("RunService").RenderStepped:Wait(0.5)
 end
  end    
 })
