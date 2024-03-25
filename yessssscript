@@ -262,7 +262,7 @@ game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 wait(0.5)
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game:GetService("RunService").RenderStepped:Wait(0.5)
+game:GetService("RunService").RenderStepped:Wait()
 end
  end    
 })
