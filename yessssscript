@@ -39,7 +39,7 @@ setclipboard("https://discord.gg/e7uXsSCV9S")
 
 Tab:AddToggle({
 	Name = "Player pet(ghost perk needed)",
-	Default = false,
+	Default = false,fa
 	Callback = function(Value)
 getgenv().PlayerPet = Value
 
@@ -269,7 +269,7 @@ game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
-wait(0.2)
+wait(1)
     game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
