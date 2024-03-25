@@ -264,7 +264,6 @@ wait(0.1)
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
-game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = workspace
 wait(0.1)
 game:GetService("RunService").RenderStepped:Wait()
 end
