@@ -39,7 +39,7 @@ setclipboard("https://discord.gg/e7uXsSCV9S")
 
 Tab:AddToggle({
 	Name = "Player pet(ghost perk needed)",
-	Default = false,fa
+	Default = false,
 	Callback = function(Value)
 getgenv().PlayerPet = Value
 
