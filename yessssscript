@@ -599,30 +599,6 @@ game.Players.LocalPlayer.Character.SprayPaint.Handle.Parent = workspace
 end    
 })
 
-Tab:AddToggle({
-	Name = "Auto snih(Spray not in hand)",
-	Default = false,
-	Callback = function(Value)
-getgenv().snih = Value
-while snih == true do
-    local args = {
-    [1] = "SprayPaint"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "SprayPaint" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
-wait(0.5)
-game.Players.LocalPlayer.Character.SprayPaint.Handle.Parent = workspace
-game:GetService("RunService").RenderStepped:Wait()
-end
-	end    
-})
-
 Tab:AddButton({
 	Name = "Reset all",
 	Callback = function()
