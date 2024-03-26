@@ -597,7 +597,7 @@ end
 wait(0.5)
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
-            v.Handle.Name = Handle1
+            game.Players.LocalPlayer.Character.v.Handle.Name = Handle1
     end
 end
 end    
@@ -623,7 +623,7 @@ end
 wait(0.5)
 for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
         if v.name == "SprayPaint" then
-            v.Handle.Name = Handle1
+            game.Players.LocalPlayer.Character.v.Handle.Name = Handle1
     end
 end
 game:GetService("RunService").RenderStepped:Wait()
