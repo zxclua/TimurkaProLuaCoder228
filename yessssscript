@@ -1925,7 +1925,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Knife Dick",
+	Name = "Dick in hand",
 	Callback = function()
 local args = {
     [1] = "SprayPaint"
@@ -1943,8 +1943,8 @@ local args = {
     [1] = 14889784744,
     [2] = Enum.NormalId.Top,
     [3] = 5,
-    [4] = game.Players.LocalPlayer.Character.KnifeDisplay,
-    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+    [4] = game.Players.LocalPlayer.Character.SprayPaint,
+    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,1,-2)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
