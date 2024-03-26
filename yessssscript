@@ -595,11 +595,7 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
     end
 end
 wait(0.5)
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "SprayPaint" then
-            game.Players.LocalPlayer.Character.v.Handle.Name = Handle1
-    end
-end
+game.Players.LocalPlayer.Character.SprayPaint.Handle.Name = Handle1
 end    
 })
 
