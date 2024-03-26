@@ -581,6 +581,46 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
+	Name = "Spray not in hand",
+	Callback = function()
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Handle.Name = Handle1
+    end
+end
+end    
+})
+
+Tab:AddToggle({
+	Name = "Auto snih(Spray not in hand)",
+	Default = false,
+	Callback = function(Value)
+getgenv().snih = Value
+while snih == true do
+    local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Handle.Name = Handle1
+    end
+end
+end    
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
+Tab:AddButton({
 	Name = "Reset all",
 	Callback = function()
 local args = {
@@ -1922,33 +1962,6 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 
 end
   	end    
-})
-
-Tab:AddButton({
-	Name = "Dick in hand",
-	Callback = function()
-local args = {
-    [1] = "SprayPaint"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "SprayPaint" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
-
-local args = {
-    [1] = 14889784744,
-    [2] = Enum.NormalId.Top,
-    [3] = 5,
-    [4] = game.Players.LocalPlayer.Character.SprayPaint,
-    [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,1,-2)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-end    
 })
 
 Tab:AddButton({
