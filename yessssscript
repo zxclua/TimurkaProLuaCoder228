@@ -614,7 +614,6 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
             v.Handle.Name = Handle1
     end
 end
-end    
 game:GetService("RunService").RenderStepped:Wait()
 end
 	end    
