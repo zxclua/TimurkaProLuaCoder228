@@ -1222,9 +1222,9 @@ murder = v.Name
 local args = {
     [1] = 16047819300,
     [2] = Enum.NormalId.Top,
-    [3] = 5,
+    [3] = 0.1,
     [4] = v.Character.Knife.Handle,
-    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,1000,0)
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,100,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
