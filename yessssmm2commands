@@ -54,14 +54,6 @@ function MainCommands(plr, msg)
     if msg == "trap" then
 	game.ReplicatedStorage.TrapSystem.PlaceTrap:InvokeServer(plr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1, 0))
     end
-if msg == "cmds" then
-	local args = {
-    [1] = "commands: sg, dk, wbox, kbox, fbox, trap, reset, fcoin, nc, mch, box, cmds",
-    [2] = "normalchat"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-    end
 if msg == "fcoin" then
 	local args = {
     [1] = "SprayPaint"
