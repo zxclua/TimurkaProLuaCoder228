@@ -1,5 +1,5 @@
 gamepassid = 747762584
-ps = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.UserId, gamepassid)
+ps = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId, gamepassid)
 if not ps then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
 else
