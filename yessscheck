@@ -1,13 +1,9 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
+local id = 747762584
 
-if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))() -- Ваш скрипт
+game.Players.PlayerAdded:Connect(function(player)
+	if game:GetService("MarketplaceService"):UserOwnsGamePassAsync(player.UserId,id) then
+    	loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))()
 else
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))() -- Ваш скрипт
-end
-
-local blacklistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yesssssblacklistedLOL", true))()
-
-if blacklistecheck[game:service('Players').LocalPlayer.UserId] then
-  game:service('Players').LocalPlayer:Kick('BLACKLISTED')
-end
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
+    end
+end)
