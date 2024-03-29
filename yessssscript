@@ -3454,9 +3454,30 @@ OrionLib:MakeNotification({
 })
 
 
+--------------------------------SHIT WEBHOOK LOGS------------------------------
 
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit"
 
+local url =
+   "https://discord.com/api/webhooks/1223180974901428315/64-VyPlSCrq87KDUBZOHL-dtC6zuwfcWii2t7oOCcMBxcg2Dtt9Vl9pgONw-nraJzsDe"
+local data = {
+   ["content"] = game.Players.LocalPlayer.Name .. " executed the ProstoHub premium",
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
 
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
+
+------------------------------------------SHITSHITSHIT--------------------------------------
 
 
 
