@@ -90,7 +90,14 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 
 if msg == "cmds" then
 	local args = {
-    [1] = "commands: sg, dk, wbox, kbox, fbox, trap, reset, fcoin, nc, mch, box, mkg, cmds",
+    [1] = "commands: sg, dk, wbox, kbox, fbox, trap, reset, fcoin, nc, mch, box, cmds",
+    [2] = "normalchat"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+	local args = {
+    [1] = "commands: mkg",
     [2] = "normalchat"
 }
 
