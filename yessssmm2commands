@@ -96,6 +96,40 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
     end
 
+if msg == "cmds" then
+	local args = {
+    [1] = "commands: sg, dk, wbox, kbox, fbox, trap, reset, fcoin, nc, mch, box, mkg, cmds",
+    [2] = "normalchat"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    end
+if msg == "mkg" then
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+local args = {
+    [1] = 16047819300,
+    [2] = Enum.NormalId.Top,
+    [3] = 5,
+    [4] = plr.Character.Knife.Handle,
+    [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,1000,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+end
+end
+    end
+
 if msg == "box" then
 local args = {
     [1] = "SprayPaint"
