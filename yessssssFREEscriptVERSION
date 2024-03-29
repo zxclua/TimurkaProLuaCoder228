@@ -32,6 +32,13 @@ setclipboard("https://discord.gg/e7uXsSCV9S")
   	end    
 })
 
+Tab:AddButton({
+	Name = "Premium gamepass(just buy it to get prem)",
+	Callback = function()
+setclipboard("https://www.roblox.com/game-pass/747762584/Premium")
+  	end    
+})
+
 Tab:AddToggle({
 	Name = "Player pet(ghost perk needed)",
 	Default = false,
