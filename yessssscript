@@ -15,7 +15,7 @@ $$ |      $$ |      \$$$$$$  |$$$$$$$  |  \$$$$  |\$$$$$$  |$$ |  $$ |\$$$$$$  |
   
 ]]--
                                                                                                
-
+print("ProstoHub loading....")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({Name = "Prosto Hub Premium", HidePremium = false, SaveConfig = true, ConfigFolder = "PHP", IntroText = "Best of the best"})
@@ -3524,7 +3524,7 @@ request(abcdef)
 
 
 
-
+print("ProstoHub loaded!")
 
 
 
@@ -4197,6 +4197,6 @@ if render1 == true then
 
 
 
-
+print("Control commands loaded!")
 
 
