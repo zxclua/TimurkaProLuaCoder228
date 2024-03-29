@@ -1189,9 +1189,42 @@ murder = v.Name
 local args = {
     [1] = 16047819300,
     [2] = Enum.NormalId.Top,
-    [3] = 10,
+    [3] = 5,
     [4] = v.Character.Knife.Handle,
-    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,1000,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+end
+end
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Murder Knife bug",
+	Callback = function()
+local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+for _, v in pairs(game.Players:GetPlayers()) do
+if v.Character ~= nil and v.Backpack:FindFirstChild("Knife") or v.Character:FindFirstChild("Knife") then
+murder = v.Name
+
+local args = {
+    [1] = 16047819300,
+    [2] = Enum.NormalId.Top,
+    [3] = 5,
+    [4] = v.Character.Knife.Handle,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,1000,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
