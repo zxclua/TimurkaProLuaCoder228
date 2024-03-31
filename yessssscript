@@ -3501,13 +3501,13 @@ Tab:AddButton({
 	Name = "Bold",
 	Callback = function()
 local Animate = game.Players.LocalPlayer.Character.Animate
-Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16744209868"
-Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=16744209868"
-Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=16744219182"
-Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=16744214662"
-Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=16744212581"
-Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=16744204409"
-Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=16744207822"
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=16738333868"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=16738334710"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=16738340646"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=16738337225"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=16738336650"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=16738332169"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=16738333171"
 game.Players.LocalPlayer.Character.Humanoid.Jump = true
   	end    
 })
