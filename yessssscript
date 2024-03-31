@@ -40,7 +40,6 @@ setclipboard("https://discord.gg/e7uXsSCV9S")
 Tab:AddButton({
 	Name = "NameTags",
 	Callback = function()
-while wait() do
 local Adjustment = Vector2.new(5,1)
  
 local function CreateNameTag(Head)
@@ -60,17 +59,12 @@ local function CreateNameTag(Head)
  TextLabel.BackgroundTransparency = 1
  TextLabel.Size = UDim2.new(Adjustment.X,0,Adjustment.Y,0)
  TextLabel.Position = UDim2.new((1 - Adjustment.X)/2,0,(1 - Adjustment.Y)/2)
- if (plr.Backpack:FindFirstChild("Knife") or plr.Character:FindFirstChild("Knife")) then
- TextLabel.TextColor3 = Color3.new(255,0,0)
- elseif (plr.Backpack:FindFirstChild("Gun") or plr.Character:FindFirstChild("Gun")) then
-  TextLabel.TextColor3 = Color3.new(0,0,255)
-  else
-  TextLabel.TextColor3 = Color3.new(0,255,0)
+ TextLabel.TextColor3 = Color3.new(0,255,0)
  TextLabel.TextScaled = true
-
+ 
  return Adornee, TextLabel
 end
- end
+ 
 game.Players.PlayerAdded:connect(function(Player)
  Player.CharacterAdded:connect(function(Character)
   if Player.Name ~= "Player1" and Player.Name ~= "YOURUSERNAMEHERE" then
@@ -101,7 +95,6 @@ game.Players.PlayerAdded:connect(function(Player)
   end
  end)
 end)
-end
   	end    
 })
 
