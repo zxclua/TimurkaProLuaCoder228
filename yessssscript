@@ -1817,7 +1817,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
 local args = {
-    [1] = 16888805737,
+    [1] = 16888803315,
     [2] = Enum.NormalId.Bottom,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -1827,7 +1827,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
 local args = {
-    [1] = 16888805737,
+    [1] = 16888803315,
     [2] = Enum.NormalId.Front,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -1838,7 +1838,7 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 
 
 local args = {
-    [1] = 16888805737,
+    [1] = 16888803315,
     [2] = Enum.NormalId.Back,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -1848,7 +1848,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
 local args = {
-    [1] = 16888805737,
+    [1] = 16888803315,
     [2] = Enum.NormalId.Left,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
@@ -1858,7 +1858,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
 local args = {
-    [1] = 16888805737,
+    [1] = 16888803315,
     [2] = Enum.NormalId.Right,
     [3] = 10,
     [4] = game.Players.LocalPlayer.Character.HumanoidRootPart,
