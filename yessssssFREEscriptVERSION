@@ -39,6 +39,81 @@ setclipboard("https://www.roblox.com/game-pass/747762584/Premium")
   	end    
 })
 
+Tab:AddButton({
+	Name = "ESP",
+	Callback = function()
+--[[
+    Credits to Kiriot22 for the Role getter <3
+        - poorly coded by FeIix <3
+]]
+
+-- > Declarations < --
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local LP = Players.LocalPlayer
+local roles
+
+-- > Functions <--
+
+function CreateHighlight() -- make any new highlights for new players
+	for i, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and not v.Character:FindFirstChild("Highlight") then
+			Instance.new("Highlight", v.Character)           
+		end
+	end
+end
+
+function UpdateHighlights() -- Get Current Role Colors (messy)
+	for _, v in pairs(Players:GetChildren()) do
+		if v ~= LP and v.Character and v.Character:FindFirstChild("Highlight") then
+			Highlight = v.Character:FindFirstChild("Highlight")
+			if v.Name == Sheriff and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(0, 0, 225)
+			elseif v.Name == Murder and IsAlive(v) then
+				Highlight.FillColor = Color3.fromRGB(225, 0, 0)
+			elseif v.Name == Hero and IsAlive(v) and not IsAlive(game.Players[Sheriff]) then
+				Highlight.FillColor = Color3.fromRGB(255, 250, 0)
+			else
+				Highlight.FillColor = Color3.fromRGB(0, 225, 0)
+			end
+		end
+	end
+end	
+
+function IsAlive(Player) -- Simple sexy function
+	for i, v in pairs(roles) do
+		if Player.Name == i then
+			if not v.Killed and not v.Dead then
+				return true
+			else
+				return false
+			end
+		end
+	end
+end
+
+
+-- > Loops < --
+
+RunService.RenderStepped:connect(function()
+	roles = ReplicatedStorage:FindFirstChild("GetPlayerData", true):InvokeServer()
+	for i, v in pairs(roles) do
+		if v.Role == "Murderer" then
+			Murder = i
+		elseif v.Role == 'Sheriff'then
+			Sheriff = i
+		elseif v.Role == 'Hero'then
+			Hero = i
+		end
+	end
+	CreateHighlight()
+	UpdateHighlights()
+end)
+  	end    
+})
+
 Tab:AddToggle({
 	Name = "Player pet(ghost perk needed)",
 	Default = false,
@@ -113,37 +188,6 @@ game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = worksp
 game:GetService("RunService").RenderStepped:Wait()
 end
  end    
-})
-
-Tab:AddButton({
-	Name = "ESP",
-	Callback = function()
-  while wait() do
-    local function getRoleColor(plr)
-        if (plr.Backpack:FindFirstChild("Knife") or plr.Character:FindFirstChild("Knife")) then
-            return Color3.new(255, 0, 0)
-        elseif (plr.Backpack:FindFirstChild("Gun") or plr.Character:FindFirstChild("Gun")) then
-            return Color3.new(0, 0, 255)
-        else
-            return Color3.new(0, 255, 0)
-        end
-     end
-      
-     while true do
-        for _, v in pairs(game.Players:GetChildren()) do
-            if v ~= game.Players.LocalPlayer and v.Character and not v.Character:FindFirstChild("Highlight") then
-                Instance.new("Highlight", v.Character)
-                v.Character.Highlight.FillTransparency = 0.5
-                v.Character.Highlight.OutlineTransparency = 0.5
-                v.Character.Highlight.FillColor = getRoleColor(v)
-            elseif (v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Highlight")) then
-                v.Character.Highlight.FillColor = getRoleColor(v)
-            end
-        end
-        wait(0.1)
-     end
-    end
-  	end    
 })
 
 Tab:AddButton({
