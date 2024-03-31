@@ -3,5 +3,17 @@ ps = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.Lo
 if not ps then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))()
+    local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
+
+if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))() -- Ваш скрипт
+else
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))() -- Ваш скрипт
+end
+
+local blacklistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yesssssblacklistedLOL", true))()
+
+if blacklistecheck[game:service('Players').LocalPlayer.UserId] then
+  game:service('Players').LocalPlayer:Kick('BLACKLISTED')
+end
 end
