@@ -71,7 +71,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Left,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
     [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
@@ -81,7 +81,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Right,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
     [5] = plr.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
