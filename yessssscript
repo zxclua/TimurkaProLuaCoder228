@@ -4469,11 +4469,16 @@ local SGA = Instance.new("TextButton")
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-SGA:Destroy()
-Trap:Destroy()
-SNIH:Destroy()
-dk:Destroy()
-DFG:Destroy()
+SGA.BackgroundTransparency = 1
+SGA.TextTransparency = 1
+Trap.BackgroundTransparency = 1
+Trap.TextTransparency = 1
+SNIH.TextTransparency = 1
+SNIH.BackgroundTransparency = 1
+dk.BackgroundTransparency = 1
+dk.TextTransparency = 1
+DFG.BackgroundTransparency = 1
+DFG.TextTransparency = 1
   	end    
 })
 
