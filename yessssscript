@@ -151,6 +151,25 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Break gun",
+	Default = false,
+	Callback = function(Value)
+getgenv().bg = Value
+
+while bg == true do
+local args = {
+    [1] = 1,
+    [2] = Vector3.new(128.54666137695312, 53.791664123535156, -3046.443603515625),
+    [3] = "AH"
+}
+
+game:GetService("Players").LocalPlayer.Character.Gun.KnifeServer.ShootGun:InvokeServer(unpack(args))
+game:GetService("RunService").RenderStepped:Wait()
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
