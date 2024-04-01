@@ -4015,7 +4015,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "All quick buttons",
 	Callback = function()
-print("123")
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 133
   	end    
 })
 
