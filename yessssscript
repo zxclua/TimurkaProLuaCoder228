@@ -803,7 +803,7 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
     end
 end
 local args = {
-    [1] = 16825099453,
+    [1] = 16825097418,
     [2] = Enum.NormalId.Front,
     [3] = 25,
     [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
@@ -812,7 +812,7 @@ local args = {
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
 local args = {
-    [1] = 16825099453,
+    [1] = 16825097418,
     [2] = Enum.NormalId.Back,
     [3] = 25,
     [4] = game.ReplicatedStorage.Coins.CandiesObjects.Candies.Cyan,
@@ -1480,7 +1480,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Left,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
@@ -1490,7 +1490,7 @@ local args = {
     [1] = 14879469700,
     [2] = Enum.NormalId.Right,
     [3] = 3,
-    [4] = workspace:WaitForChild("Lobby"):WaitForChild("MainLobby"):WaitForChild("Parts"):WaitForChild("Part"),
+    [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
     [5] = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,-1.7,0)
 }
 
