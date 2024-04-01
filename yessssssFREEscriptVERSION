@@ -333,6 +333,16 @@ end
   	end    
 })
 
+Tab:AddTextbox({
+	Name = "TP to player",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		local tptarget = Value
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[tptarget].Character.HumanoidRootPart.CFrame
+	end	  
+})
+
 local Tab = Window:MakeTab({
 	Name = "MM2 Emotes",
 	Icon = "rbxassetid://14925193583",
