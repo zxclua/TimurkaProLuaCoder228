@@ -1424,25 +1424,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaC
 })
 
 Tab:AddButton({
-	Name = "Tsunami lobby second variant",
-	Callback = function()
-local args = {
-    [1] = "SprayPaint"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-
-for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if v.name == "SprayPaint" then
-            v.Parent = game.Players.LocalPlayer.Character
-    end
-end
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tutstutnuamt2", true))()
-   end
-})
-
-Tab:AddButton({
 	Name = "Floor is lava",
 	Callback = function()
 local args = {
