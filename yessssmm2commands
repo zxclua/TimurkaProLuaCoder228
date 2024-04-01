@@ -54,6 +54,36 @@ function MainCommands(plr, msg)
     if msg == "trap" then
 	game.ReplicatedStorage.TrapSystem.PlaceTrap:InvokeServer(plr.Character.HumanoidRootPart.CFrame * CFrame.new(0, -1, 0))
     end
+if msg == "llava" then
+	local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tututufltuootrtistltavta", true))()
+    end
+if msg == "ltsu" then
+	local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/tutstutnuamt", true))()
+    end
 if msg == "fcoin" then
 	local args = {
     [1] = "SprayPaint"
@@ -97,7 +127,7 @@ if msg == "cmds" then
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 
 	local args = {
-    [1] = "commands: mkg",
+    [1] = "commands: mkg, llava, ltsu",
     [2] = "normalchat"
 }
 
