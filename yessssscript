@@ -242,24 +242,6 @@ p1.CFrame = pos
 })
 
 Tab:AddButton({
-	Name = "HitBox expander",
-	Callback = function()
-z = game.Players.LocalPlayer
-f = z.Character.SprayPaint
-for _, v in game.Players:GetChildren() do
-if v ~= z then
-if v.Character then
-if v.Character:FindFirstChild("HumanoidRootPart") then
-v.Character.HumanoidRootPart.Size = 10, 10, 10
-v.Character.HumanoidRootPart.Transparency = 0.5
-end
-end
-end
-end
-  	end    
-})
-
-Tab:AddButton({
 	Name = "Animation speed",
 	Callback = function()
 for _, v in pairs(game.Players.LocalPlayer.Character.Humanoid:GetPlayingAnimationTracks()) do
