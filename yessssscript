@@ -250,7 +250,7 @@ for _, v in game.Players:GetChildren() do
 if v ~= z then
 if v.Character then
 if v.Character:FindFirstChild("HumanoidRootPart") then
-v.Character.HumanoidRootPart.Size = 10,10,10
+v.Character.HumanoidRootPart.Size = 10, 10, 10
 v.Character.HumanoidRootPart.Transparency = 0.5
 end
 end
