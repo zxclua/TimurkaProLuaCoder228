@@ -1,15 +1,18 @@
-local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
+gamepassid = 747762584
+ps = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId, gamepassid)
+if not ps then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
+else
+    local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
 
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))() -- Ваш скрипт
 else
-print("Checking....")
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))() -- Ваш скрипт
 end
 
-gamepassid = 747762584
-ps = game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.UserId, gamepassid)
-if not ps then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
-else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))()
+local blacklistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yesssssblacklistedLOL", true))()
+
+if blacklistecheck[game:service('Players').LocalPlayer.UserId] then
+  game:service('Players').LocalPlayer:Kick('BLACKLISTED')
 end
