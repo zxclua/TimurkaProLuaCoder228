@@ -4,7 +4,7 @@ if not ps then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))()
 else
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/yessssbase", true))()
-elseif whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckPttt", true))() -- Ваш скрипт
 else
   loadstring(game:HttpGet("https://raw.githubusercontent.com/zxclua/TimurkaProLuaCoder228/main/ttttttdopCheckFttt", true))() -- Ваш скрипт
