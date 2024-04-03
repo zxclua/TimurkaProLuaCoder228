@@ -807,6 +807,7 @@ local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
 local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
 
 getgenv().eshloop = Value
+getgenv().eshloop2 = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
   while eshloop == true do
@@ -873,7 +874,9 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
+wait(14)
+end
+while eshloop2 == true do
 if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   print("Looper activated!")
 
@@ -916,7 +919,6 @@ if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   }
   
   game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-wait(3)
              end
          end
      end
@@ -936,11 +938,11 @@ local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
 local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
 
 getgenv().fireloop = Value
+getgenv().fireloop2 = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
   while fireloop == true do
 
-  -- check if player distance is <=10(mag) then
   local args = {
     [1] = "SprayPaint"
 }
@@ -1002,7 +1004,9 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
+wait(14)
+end
+while fireloop2 == true do
 if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   print("Looper activated!")
 
@@ -1045,7 +1049,6 @@ if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   }
   
   game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-wait(3)
              end
          end
      end
