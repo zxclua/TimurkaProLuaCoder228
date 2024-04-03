@@ -807,7 +807,6 @@ local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
 local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
 
 getgenv().eshloop = Value
-getgenv().eshloop2 = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
   while eshloop == true do
@@ -874,9 +873,7 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-wait(14)
-end
-while eshloop2 == true do
+
 if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   print("Looper activated!")
 
@@ -938,7 +935,6 @@ local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
 local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
 
 getgenv().fireloop = Value
-getgenv().fireloop2 = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
   while fireloop == true do
@@ -1004,9 +1000,6 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-wait(14)
-end
-while fireloop2 == true do
 if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   print("Looper activated!")
 
