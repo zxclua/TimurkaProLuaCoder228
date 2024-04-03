@@ -874,7 +874,7 @@ local args = {
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
-if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
+if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=5 then
   print("Looper activated!")
 
   local args = {
@@ -919,7 +919,6 @@ if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
              end
          end
      end
-    end
 	end    
 })
 
@@ -1045,7 +1044,6 @@ if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
              end
          end
      end
-    end
 	end    
 })
 
