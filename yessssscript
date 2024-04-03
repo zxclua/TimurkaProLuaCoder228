@@ -326,6 +326,30 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Gamep
 })
 
 Tab:AddButton({
+	Name = "Murder kill all",
+	Callback = function()
+local z = game.Players.LocalPlayer.Character
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if v.name == "Knife" then
+  v.Parent = game.Players.LocalPlayer.Character
+end
+end
+local q = z.Knife
+for _, v in game.Players:GetChildren() do
+if v ~= z then
+v.Character.HumanoidRootPart.CFrame = q.Handle.CFrame
+v.Character.HumanoidRootPart.CanCollide = false
+q.Stab:FireServer("")
+q.Stab:FireServer("")
+q.Stab:FireServer("")
+q.Stab:FireServer("")
+q.Stab:FireServer("")
+end end
+
+  	end    
+})
+
+Tab:AddButton({
 	Name = "FakeGun(fake gun perk need)",
 	Callback = function()
 game:GetService("ReplicatedStorage").Remotes.Gameplay.FakeGun:FireServer("")
