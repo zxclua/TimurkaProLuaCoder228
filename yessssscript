@@ -3983,34 +3983,6 @@ game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
   	end    
 })
 
-local Tab = Window:MakeTab({
-	Name = "AutoFarm",
-	Icon = "rbxassetid://14861637738",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "credits: supergovnuk"
-})
-
-Tab:AddToggle({
-	Name = "AutoFarm",
-	Default = false,
-	Callback = function(Value)
-getgenv().autofarm = Value
-while autofarm == true do
-local z = game.Players.LocalPlayer
-local coin = game.Workspace.Normal.CoinContainer.Coin_Server
-if coin  ~= nil then
-z.Character.HumanoidRootPart.CFrame = coin.CFrame
-wait(0.3)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.060272, 136.674957, 10.2191353, -1, 4.28097486e-08, -3.51574272e-06, 4.28095532e-08, 1, 5.58183721e-08, 3.51574272e-06, 5.58182194e-08, -1)
-wait(0.3)
-end
-end
-	end    
-})
-
 OrionLib:MakeNotification({
 	Name = "Prosto Hub",
 	Content = "Prosto Hub loaded!",
