@@ -541,7 +541,18 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Lobby TP",
 	Callback = function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.060272, 136.674957, 10.2191353, -1, 4.28097486e-08, -3.51574272e-06, 4.28095532e-08, 1, 5.58183721e-08, 3.51574272e-06, 5.58182194e-08, -1)
+local z = game.Players.LocalPlayer.Character
+local lobbyspawn = game.Workspace.Lobby.Spawns.Spawn
+z.HumanoidRootPart.CFrame = lobbyspawn.CFrame
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Map TP",
+	Callback = function()
+local z = game.Players.LocalPlayer.Character
+local spawn = game.Workspace.Normal.Spawns.Spawn
+z.HumanoidRootPart.CFrame = spawn.CFrame
   	end    
 })
 
