@@ -795,45 +795,143 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 	end	  
 })
 
-Tab:AddTextbox({
-	Name = "Set loopReset player",
-	Default = "",
-	TextDisappear = true,
-	Callback = function(Value)
-		local looptarget = Value
-	end	  
-})
-
 Tab:AddToggle({
-	Name = "LoopReset Player",
+	Name = "Column of joker",
 	Default = false,
 	Callback = function(Value)
-getgenv().LoopResetPlayer = Value
-while LoopResetPlayer == true do
-    local args = {
-        [1] = "SprayPaint"
-    }
-    
-    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
-    
-    for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-            if v.name == "SprayPaint" then
-                v.Parent = game.Players.LocalPlayer.Character
-        end
+local z = game.Players.LocalPlayer
+
+repeat wait() until plr.Character
+
+local chr = z.Character
+local hrp = chr:FindFirstChild("HumanoidRootPart")
+local pos = hrp.CFrame
+
+getgenv().eshloop = Value
+for _, v in pairs(game.Players:GetPlayers()) do
+  if v ~= z then
+spawn(function()
+  while eshloop == true do
+
+  local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
     end
-    
-    local args = {
-        [1] = 14889784744,
-        [2] = Enum.NormalId.Top,
-        [3] = 2048,
-        [4] = game.Players[looptarget].Character.HumanoidRootPart,
-        [5] = game.Players[looptarget].Character.HumanoidRootPart.CFrame * CFrame.new(0,-1000,0)
-    }
-    
-    game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-    
-game:GetService("RunService").RenderStepped:Wait()
 end
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Top,
+  [3] = 5,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Bottom,
+  [3] = 10,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,2.5,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Front,
+  [3] = 5,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,2.5)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Back,
+  [3] = 5,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-2.5)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Left,
+  [3] = 5,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(2.5,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 16809995631,
+  [2] = Enum.NormalId.Right,
+  [3] = 5,
+  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
+  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(-2.5,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+if (hrp.Position - v.Character.HumanoidRootPart.Position).Magnitude <=10 then
+  print("Looper activated!")
+
+  local args = {
+    [1] = 16809995631,
+    [2] = Enum.NormalId.Right,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 16809995631,
+    [2] = Enum.NormalId.Left,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 16809995631,
+    [2] = Enum.NormalId.Front,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 16809995631,
+    [2] = Enum.NormalId.Back,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+             end
+         end
+     end
+end)
 	end    
 })
 
