@@ -810,7 +810,7 @@ local pos = hrp.CFrame
 getgenv().eshloop = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
-spawn(function()
+
   while eshloop == true do
 
   local args = {
@@ -931,7 +931,6 @@ if (hrp.Position - v.Character.HumanoidRootPart.Position).Magnitude <=10 then
              end
          end
      end
-end)
 	end    
 })
 
