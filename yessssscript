@@ -800,19 +800,18 @@ Tab:AddToggle({
 	Default = false,
 	Callback = function(Value)
 local z = game.Players.LocalPlayer
-
-repeat wait() until plr.Character
-
 local chr = z.Character
 local hrp = chr:FindFirstChild("HumanoidRootPart")
 local pos = hrp.CFrame
+local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
+local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
 
 getgenv().eshloop = Value
 for _, v in pairs(game.Players:GetPlayers()) do
   if v ~= z then
-
   while eshloop == true do
 
+  -- check if player distance is <=10(mag) then
   local args = {
     [1] = "SprayPaint"
 }
@@ -828,18 +827,8 @@ local args = {
   [1] = 16809995631,
   [2] = Enum.NormalId.Top,
   [3] = 5,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,-3,0)
-}
-
-game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
-local args = {
-  [1] = 16809995631,
-  [2] = Enum.NormalId.Bottom,
-  [3] = 10,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,2.5,0)
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,-3,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
@@ -848,8 +837,8 @@ local args = {
   [1] = 16809995631,
   [2] = Enum.NormalId.Front,
   [3] = 5,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,2.5)
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
@@ -859,8 +848,8 @@ local args = {
   [1] = 16809995631,
   [2] = Enum.NormalId.Back,
   [3] = 5,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,-2.5)
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
@@ -869,8 +858,8 @@ local args = {
   [1] = 16809995631,
   [2] = Enum.NormalId.Left,
   [3] = 5,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(2.5,0,0)
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
@@ -879,13 +868,13 @@ local args = {
   [1] = 16809995631,
   [2] = Enum.NormalId.Right,
   [3] = 5,
-  [4] = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall"),
-  [5] = pos.Character.HumanoidRootPart.CFrame * CFrame.new(-2.5,0,0)
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
 
-if (hrp.Position - v.Character.HumanoidRootPart.Position).Magnitude <=10 then
+if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
   print("Looper activated!")
 
   local args = {
@@ -927,10 +916,140 @@ if (hrp.Position - v.Character.HumanoidRootPart.Position).Magnitude <=10 then
   }
   
   game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
-
+wait(3)
              end
          end
      end
+    end
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Column of fire",
+	Default = false,
+	Callback = function(Value)
+local z = game.Players.LocalPlayer
+local chr = z.Character
+local hrp = chr:FindFirstChild("HumanoidRootPart")
+local pos = hrp.CFrame
+local hrp2 = chr:FindFirstChild("HumanoidRootPart").Position
+local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
+
+getgenv().fireloop = Value
+for _, v in pairs(game.Players:GetPlayers()) do
+  if v ~= z then
+  while fireloop == true do
+
+  -- check if player distance is <=10(mag) then
+  local args = {
+    [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+        if v.name == "SprayPaint" then
+            v.Parent = game.Players.LocalPlayer.Character
+    end
+end
+local args = {
+  [1] = 14562429962,
+  [2] = Enum.NormalId.Top,
+  [3] = 5,
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,-3,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 14562429962,
+  [2] = Enum.NormalId.Front,
+  [3] = 5,
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+
+local args = {
+  [1] = 14562429962,
+  [2] = Enum.NormalId.Back,
+  [3] = 5,
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 14562429962,
+  [2] = Enum.NormalId.Left,
+  [3] = 5,
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+local args = {
+  [1] = 14562429962,
+  [2] = Enum.NormalId.Right,
+  [3] = 5,
+  [4] = trgeshloop,
+  [5] = pos * CFrame.new(0,0,0)
+}
+
+game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+if (hrp2 - v.Character.HumanoidRootPart.Position).Magnitude <=3 then
+  print("Looper activated!")
+
+  local args = {
+    [1] = 14562429962,
+    [2] = Enum.NormalId.Right,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 14562429962,
+    [2] = Enum.NormalId.Left,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 14562429962,
+    [2] = Enum.NormalId.Front,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+  local args = {
+    [1] = 14562429962,
+    [2] = Enum.NormalId.Back,
+    [3] = 7,
+    [4] = v.Character.HumanoidRootPart,
+    [5] = v.Character.HumanoidRootPart.CFrame * CFrame.new(0,0,0)
+  }
+  
+  game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+wait(3)
+             end
+         end
+     end
+    end
 	end    
 })
 
