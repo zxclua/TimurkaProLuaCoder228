@@ -2037,6 +2037,12 @@ for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
     end
 end
 
+local z = game.Players.LocalPlayer
+local f = z.Character.SprayPaint
+local q = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+local x = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
+
 local args = {
     [1] = 14889784744,
     [2] = Enum.NormalId.Top,
@@ -2100,6 +2106,39 @@ local args = {
 }
 
 game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(unpack(args))
+
+data = {10, nil}
+for _, plr in game.Players:GetChildren() do
+    if plr ~= z then
+        if plr.Character:FindFirstChild("HumanoidRootPart") then
+            if (q - plr.Character.HumanoidRootPart.Position).Magnitude < data[1] then
+                data[1] = (q - plr.Character.HumanoidRootPart.Position).Magnitude
+                data[2] = plr
+            end
+        end
+    end
+end
+local args = {
+  [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+      if v.name == "SprayPaint" then
+          v.Parent = game.Players.LocalPlayer.Character
+  end
+end
+
+f.Remote:FireServer(14891784581, Enum.NormalId.Front, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Right, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Back, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Left, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Front, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(1, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Right, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Back, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(1, 0, 0)) 
+f.Remote:FireServer(14891784581, Enum.NormalId.Left, 6, data[2].Character.HumanoidRootPart, data[2].Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)) 
+
 
 end    
 })
