@@ -795,6 +795,56 @@ game:GetService("Players").LocalPlayer.Character.SprayPaint.Remote:FireServer(un
 	end	  
 })
 
+Tab:AddToggle({
+	Name = "Column of joker",
+	Default = false,
+	Callback = function(Value)
+local z = game.Players.LocalPlayer
+local f = z.Character.SprayPaint
+local q = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+local trgeshloop = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
+getgenv().eshloop = Value
+getgenv().eshloop2 = Value
+
+while eshloop == true do
+    f.Remote:FireServer(16809995631, Enum.NormalId.Left, 5, trgeshloop, CFrame.new(0, 0, 0)) 
+    f.Remote:FireServer(16809995631, Enum.NormalId.Right, 5, trgeshloop, CFrame.new(0, 0, 0)) 
+    f.Remote:FireServer(16809995631, Enum.NormalId.Back, 5, trgeshloop, CFrame.new(0, 0, 0)) 
+    f.Remote:FireServer(16809995631, Enum.NormalId.Front, 5, trgeshloop, CFrame.new(0, 0, 0)) 
+    f.Remote:FireServer(16809995631, Enum.NormalId.Top., 5, trgeshloop, CFrame.new(0, -3, 0)) 
+end
+
+while eshloop2 == true do
+data = {4, nil}
+for _, plr in game.Players:GetChildren() do
+    if plr ~= game.Players.LocalPlayer and plr.Character then
+        if plr.Character:FindFirstChild("HumanoidRootPart") then
+            if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - plr.Character.HumanoidRootPart.Position).Magnitude < data[1] then
+                data[1] = (q - plr.Character.HumanoidRootPart.Position).Magnitude
+                data[2] = plr
+            end
+        end
+    end
+end
+local args = {
+  [1] = "SprayPaint"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("Extras"):WaitForChild("ReplicateToy"):InvokeServer(unpack(args))
+
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+      if v.name == "SprayPaint" then
+          v.Parent = game.Players.LocalPlayer.Character
+  end
+end
+f.Remote:FireServer(16809995631, Enum.NormalId.Front, 5, data[2].Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(16809995631, Enum.NormalId.Right, 5, data[2].Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(16809995631, Enum.NormalId.Back, 5, data[2].Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, 0, 0)) 
+f.Remote:FireServer(16809995631, Enum.NormalId.Left, 5, data[2].Character:FindFirstChild("HumanoidRootPart"), CFrame.new(0, 0, 0)) 
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Bomb",
 	Callback = function()
