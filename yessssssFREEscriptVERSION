@@ -1417,7 +1417,7 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
 })
 
 Tab:AddButton({
-	Name = "Pirate",
+	Name = "Robot",
 	Callback = function()
 local Animate = game.Players.LocalPlayer.Character.Animate
 Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
@@ -1642,7 +1642,48 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
   	end    
 })
 
+local Tab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://14861637738",
+	PremiumOnly = false
+})
 
+local Section = Tab:AddSection({
+	Name = "credits: supergovnuk"
+})
+
+Tab:AddTextbox({
+	Name = "WalkSpeed",
+	Default = "16",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Reset WalkSpeed",
+	Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+  	end    
+})
+
+
+Tab:AddTextbox({
+	Name = "JumpPower",
+	Default = "50",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "Reset JumpPower",
+	Callback = function()
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+  	end    
+})
 
 
 
