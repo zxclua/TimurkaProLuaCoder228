@@ -3837,7 +3837,7 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = true
 })
 
 Tab:AddButton({
-	Name = "Pirate",
+	Name = "Robot",
 	Callback = function()
 local Animate = game.Players.LocalPlayer.Character.Animate
 Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
@@ -4099,7 +4099,7 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-	Name = "Reset WalkSpeed",
+	Name = "Reset JumpPower",
 	Callback = function()
 game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
   	end    
