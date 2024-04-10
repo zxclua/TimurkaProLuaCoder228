@@ -151,6 +151,25 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Throw character",
+	Default = false,
+	Callback = function(Value)
+getgenv().tc = Value
+
+if tc == true then
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 75
+wait(0.1)
+game.workspace.Gravity = 0
+game.Players.LocalPlayer.Character.Humanoid.PlatformStand = true
+else
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+game.workspace.Gravity = 192.2
+game.Players.LocalPlayer.Character.Humanoid.PlatformStand = false
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
