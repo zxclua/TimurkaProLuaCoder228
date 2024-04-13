@@ -183,6 +183,22 @@ end
 	end    
 })
 
+Tab:AddToggle({
+	Name = "Night",
+	Default = false,
+	Callback = function(Value)
+local lighting = game:GetService("Lighting")
+getgenv().iloveher = Value
+if iloveher == true then 
+if lighting.TimeOfDay == "00:00:00" then
+    lighting.TimeOfDay = 11
+else 
+    lighting.TimeOfDay = 24
+end
+end
+	end    
+})
+
 Tab:AddButton({
 	Name = "Fake gun dick(Fake gun perk)",
 	Callback = function()
