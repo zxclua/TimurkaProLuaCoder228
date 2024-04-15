@@ -25,7 +25,6 @@ local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.c
         
         --LOCALS
         local z = game.Players.LocalPlayer
-        local f = z.Character.SprayPaint
         local q = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
         local x = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
         local trgtsunami = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
@@ -10135,7 +10134,6 @@ else
         
         --LOCALS
         local z = game.Players.LocalPlayer
-        local f = z.Character.SprayPaint
         local q = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
         local x = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
         local trgtsunami = workspace:WaitForChild("Lobby"):WaitForChild("InvisWalls"):WaitForChild("InvisWall")
