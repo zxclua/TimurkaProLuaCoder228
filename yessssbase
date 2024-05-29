@@ -8,8 +8,10 @@ userids = {
 [992346359] = true, -- romakaz
 [1935088066] = true, -- makson
 [1490997802] = true, -- vova
+[2897993982] = true, -- vova2
 [3074123365] = true -- mef
 }
 return userids
+
 
 --[3074123365] = true -- mef
